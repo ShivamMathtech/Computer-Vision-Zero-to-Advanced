@@ -1,0 +1,17 @@
+{
+  "chapter": 21,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "recognized": "2026",
+    "expected": "2026",
+    "character_error_fraction": 0.0
+  },
+  "scope": "Fixed-font, fixed-spacing OCR baseline. It is not Tesseract or a deep OCR model; optional adapters process real documents.",
+  "implementation": "src/cvzero/course/classical.py::ocr"
+}
