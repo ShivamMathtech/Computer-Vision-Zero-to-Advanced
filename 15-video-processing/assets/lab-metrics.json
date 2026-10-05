@@ -1,0 +1,17 @@
+{
+  "chapter": 15,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "written_frames": 16,
+    "decoded_frames": 16,
+    "nominal_fps": 10.0
+  },
+  "scope": "Nominal playback FPS describes the generated video, not measured processing throughput.",
+  "implementation": "src/cvzero/course/classical.py::video"
+}
