@@ -1,0 +1,12 @@
+services:
+  vision:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - vision-data:/data
+    environment:
+      CVZERO_DB: /data/events.sqlite3
+    restart: unless-stopped
+volumes:
+  vision-data:

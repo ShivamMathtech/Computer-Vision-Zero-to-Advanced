@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cvzero"
+version = "1.0.0"
+description = "Computer Vision Zero to Advanced: 53 chapters, CPU labs and a local vision platform"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "Shivam Singh, MathTech"}]
+dependencies = [
+  "numpy>=1.26,<3",
+  "matplotlib>=3.8,<4",
+  "Pillow>=10.4,<13",
+  "opencv-python-headless>=4.10,<5",
+  "scipy>=1.12,<2",
+  "scikit-learn>=1.4,<2",
+]
+
+[project.optional-dependencies]
+notebooks = ["jupyterlab>=4.2,<5", "ipykernel>=6.29,<8", "nbformat>=5.10,<6", "nbclient>=0.10,<0.12"]
+dev = ["pytest>=8,<10", "ruff>=0.11,<1", "build>=1.2,<2"]
+ml = ["scipy>=1.12,<2", "scikit-learn>=1.4,<2"]
+
+deep = ["torch>=2.6,<3"]
+api = ["fastapi>=0.115,<1", "uvicorn>=0.30,<1", "httpx>=0.27,<1", "python-multipart>=0.0.12"]
+export = ["onnx>=1.16,<2", "onnxruntime>=1.18,<2"]
+
+[project.scripts]
+cvzero = "cvzero.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = ["docs/templates", "artifacts", "build", "dist"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.setuptools.package-data]
+"cvzero.platform" = ["static/*.html"]

@@ -1,0 +1,20 @@
+# Validated Linux/Python 3.12.14 snapshot; see docs/setup.md.
+# Install the matching CPU torch wheel first. This is not a hash-locked universal environment.
+numpy==2.3.5
+matplotlib==3.10.8
+Pillow==12.3.0
+opencv-python-headless==4.14.0.94
+scipy==1.17.0
+scikit-learn==1.8.0
+torch==2.14.1+cpu
+fastapi==0.142.2
+starlette==1.7.0
+httpx==0.28.1
+uvicorn==0.54.0
+pydantic==2.13.5
+onnx==1.23.1
+onnxruntime==1.30.0
+nbformat==5.11.1
+ipykernel==7.4.0
+pytest==9.1.1
+ruff==0.16.10

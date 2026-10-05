@@ -1,0 +1,8 @@
+name: cvzero
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - -e .[notebooks,deep,api,export,dev]

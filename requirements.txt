@@ -1,0 +1,3 @@
+# All default lesson notebooks. Install a suitable CPU PyTorch wheel first;
+# see docs/setup.md. Optional pretrained adapters have separate dependencies.
+-e .[notebooks,deep,api]
