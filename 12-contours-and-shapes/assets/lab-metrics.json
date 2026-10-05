@@ -1,0 +1,25 @@
+{
+  "chapter": 12,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "contour_count": 3,
+    "areas_px2": [
+      396.0,
+      752.0,
+      621.0
+    ],
+    "polygon_vertices": [
+      3,
+      8,
+      4
+    ]
+  },
+  "scope": "Contour polygon area differs from the count of foreground pixels; no physical length is known without calibration.",
+  "implementation": "src/cvzero/course/classical.py::contours"
+}
