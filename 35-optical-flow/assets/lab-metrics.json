@@ -1,0 +1,19 @@
+{
+  "chapter": 35,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "true_dx": 0.5,
+    "numpy_dx": 0.6035226204828585,
+    "numpy_dy": 0.0020205134523039047,
+    "sparse_mean_dx": 0.4993315041065216,
+    "dense_mean_endpoint_error": 0.010657348641675004
+  },
+  "scope": "Lucas\u2013Kanade reference estimates one small global translation. Dense flow is not object identity. Reflect padding is excluded from the error region.",
+  "implementation": "src/cvzero/course/spatial.py::optical_flow"
+}
