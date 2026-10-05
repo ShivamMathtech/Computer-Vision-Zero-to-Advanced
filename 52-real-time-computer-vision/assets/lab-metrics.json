@@ -1,0 +1,19 @@
+{
+  "chapter": 52,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "input_frames": 90,
+    "bounded_processed": 68,
+    "bounded_dropped": 22,
+    "bounded_p95_seconds": 0.10999999999999882,
+    "fifo_p95_seconds": 1.0314166666666629
+  },
+  "scope": "Deterministic scheduling simulation, not a measured FPS benchmark. Dropped frames change tracking time steps; production motion models must use timestamps, not assume a fixed unit interval.",
+  "implementation": "src/cvzero/course/engineering.py::realtime"
+}
