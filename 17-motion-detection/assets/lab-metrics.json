@@ -1,0 +1,15 @@
+{
+  "chapter": 17,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "last_foreground_pixels": 167
+  },
+  "scope": "Camera motion and shadows violate a stationary-background assumption. Motion is not a semantic object label.",
+  "implementation": "src/cvzero/course/classical.py::motion"
+}
