@@ -1,0 +1,17 @@
+{
+  "chapter": 10,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "ratio_test_matches": 109,
+    "ransac_inliers": 103,
+    "translation_error_px": 0.20790899615360003
+  },
+  "scope": "Known synthetic translation supplies geometric ground truth; repetitive real scenes can remain ambiguous.",
+  "implementation": "src/cvzero/course/classical.py::matching"
+}
