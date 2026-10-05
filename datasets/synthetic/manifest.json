@@ -1,0 +1,26 @@
+{
+  "source": "cvzero.synthetic; generated original arrays",
+  "seed": 42,
+  "license": "MIT; see repository LICENSE",
+  "purpose": "teaching fixtures, not a dataset benchmark",
+  "files": [
+    {
+      "file": "scene.png",
+      "shape": [
+        160,
+        240,
+        3
+      ],
+      "sha256": "b575252cbdc1a153ee15a294c2dc578384935f6a9124187052e6038f9580c142"
+    },
+    {
+      "file": "palette.png",
+      "shape": [
+        2,
+        3,
+        3
+      ],
+      "sha256": "cb609b66f284ccc44c801be23a1a7b5de790fdafdd4fd21deb41abeb2602824e"
+    }
+  ]
+}
