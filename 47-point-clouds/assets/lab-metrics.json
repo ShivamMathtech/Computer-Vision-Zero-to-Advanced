@@ -1,0 +1,17 @@
+{
+  "chapter": 47,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "input_points": 250,
+    "voxel_points": 202,
+    "paired_rigid_rmse": 2.6091000372606417e-16
+  },
+  "scope": "ICP uses nearest neighbors and can converge to a local minimum. The paired Kabsch result is a separate easier problem with known correspondences. Units are arbitrary scene units.",
+  "implementation": "src/cvzero/course/spatial.py::point_clouds"
+}
