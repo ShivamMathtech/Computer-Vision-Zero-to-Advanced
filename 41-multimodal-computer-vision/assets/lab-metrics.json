@@ -1,0 +1,17 @@
+{
+  "chapter": 41,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "visual_accuracy": 0.86875,
+    "fusion_accuracy": 0.96875,
+    "missing_depth": 0
+  },
+  "scope": "Generated binary labels and noisy scalar sensor readings. Precision weights use known synthetic noise; real systems must estimate uncertainty on held-out data and synchronize timestamps. Text-image learning is in Chapter 40.",
+  "implementation": "src/cvzero/course/spatial.py::multimodal"
+}
