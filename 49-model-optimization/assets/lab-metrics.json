@@ -1,0 +1,20 @@
+{
+  "chapter": 49,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "float_storage_bytes": 32768,
+    "int8_storage_bytes_with_scale": 8196,
+    "scale": 0.003455995809374832,
+    "output_rmse": 0.011276859790086746,
+    "float_matmul_median_us": 3.9405001643899595,
+    "dequantized_matmul_median_us": 3.935999984605587
+  },
+  "scope": "Both timings use float32 multiplication. Reduced storage alone does not imply int8 acceleration. Actual ONNX export/runtime comparison is available through scripts/export_model.py; TensorRT requires supported NVIDIA hardware.",
+  "implementation": "src/cvzero/course/engineering.py::optimization"
+}
