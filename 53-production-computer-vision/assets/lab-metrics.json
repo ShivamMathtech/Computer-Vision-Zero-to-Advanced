@@ -1,0 +1,17 @@
+{
+  "chapter": 53,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "stored_events": 12,
+    "intensity_psi": 0.7977591189627384,
+    "engine_p95_ms": 0.339093850197969
+  },
+  "scope": "PSI detects a distribution change in a synthetic scalar feature; it cannot establish label accuracy or cause. Only local frame-processing time is measured. Database queries, frontend and network overhead are separate.",
+  "implementation": "src/cvzero/course/engineering.py::production"
+}
