@@ -1,0 +1,16 @@
+{
+  "chapter": 42,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "updates": 35
+  },
+  "scope": "Short synthetic training demonstrates objectives and data flow, not photorealistic generation or a publication-quality generative score.",
+  "implementation": "src/cvzero/course/deep.py::generative",
+  "torch": "2.14.1+cpu"
+}
