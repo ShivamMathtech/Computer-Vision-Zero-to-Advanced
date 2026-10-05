@@ -1,0 +1,17 @@
+{
+  "chapter": 39,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "embedding_mean_std": 0.17155075073242188,
+    "method": "NT-Xent"
+  },
+  "scope": "The EMA consistency example omits BYOL\u2019s predictor and full augmentation recipe; monitor collapse. It is an ingredient study, not a faithful BYOL reproduction.",
+  "implementation": "src/cvzero/course/deep.py::self_supervision",
+  "torch": "2.14.1+cpu"
+}
