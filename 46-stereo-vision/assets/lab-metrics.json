@@ -1,0 +1,17 @@
+{
+  "chapter": 46,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "true_disparity_px": 8,
+    "block_mae_px": 0.0,
+    "sgbm_mae_px": 0.0
+  },
+  "scope": "One fronto-parallel plane with random texture, no distortion and one known disparity. Dividing OpenCV fixed-point disparity by 16 is essential. Occlusions and textureless surfaces are not solved here.",
+  "implementation": "src/cvzero/course/spatial.py::stereo"
+}
