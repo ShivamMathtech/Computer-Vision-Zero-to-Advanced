@@ -1,0 +1,21 @@
+{
+  "chapter": 27,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "iou_first_pair": 0.855625,
+    "nms_indices": [
+      0,
+      2
+    ],
+    "one_class_ap_at_preassigned_matches": 0.8333333333333333
+  },
+  "scope": "AP assumes already matched detections. Real mAP recomputes matching per class and IoU threshold; duplicates count as false positives.",
+  "implementation": "src/cvzero/course/deep.py::detection",
+  "torch": "2.14.1+cpu"
+}
