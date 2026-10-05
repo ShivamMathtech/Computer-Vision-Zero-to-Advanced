@@ -1,0 +1,17 @@
+{
+  "chapter": 5,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "noisy_mse": 0.00639952402451605,
+    "filtered_mse": 0.002070174895737535,
+    "library_max_error": 4.440892098500626e-16
+  },
+  "scope": "Generated teaching data; local result only.",
+  "implementation": "src/cvzero/course/classical.py::filtering"
+}

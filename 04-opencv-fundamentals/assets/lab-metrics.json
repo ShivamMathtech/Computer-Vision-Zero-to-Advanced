@@ -1,0 +1,15 @@
+{
+  "chapter": 4,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "lossless_equal": true
+  },
+  "scope": "The GUI and webcam adapters are separate scripts; this CPU lab uses no camera.",
+  "implementation": "src/cvzero/course/classical.py::opencv_basics"
+}
