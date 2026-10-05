@@ -1,0 +1,17 @@
+{
+  "chapter": 44,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "mean_3d_error_m": 6.231467718683556e-15,
+    "numpy_opencv_max_difference": 4.440892098500626e-14,
+    "noise_sigma_px": 0
+  },
+  "scope": "Calibrated rectified cameras and known correspondences. Pose recovery, correspondence search and bundle adjustment are separate problems; this experiment isolates triangulation.",
+  "implementation": "src/cvzero/course/spatial.py::reconstruction"
+}
