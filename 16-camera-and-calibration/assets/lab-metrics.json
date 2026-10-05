@@ -1,0 +1,17 @@
+{
+  "chapter": 16,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "reprojection_rms_px": 0.13591341585344371,
+    "focal_relative_error": 0.024105731661335124,
+    "view_count": 10
+  },
+  "scope": "Known synthetic camera; real calibration needs diverse board orientations, an actual square size and held-out reprojection checks.",
+  "implementation": "src/cvzero/course/classical.py::calibration"
+}
