@@ -1,0 +1,17 @@
+{
+  "chapter": 19,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "rectangle_sum_reference": 122940.0,
+    "rectangle_sum_direct": 122940,
+    "cascade_boxes_on_cartoon": 0
+  },
+  "scope": "A cartoon is a plumbing test, not an accuracy test for a human-face detector. Use consenting subjects for real evaluation. No identity, age, emotion or sensitive traits are inferred.",
+  "implementation": "src/cvzero/course/classical.py::faces"
+}
