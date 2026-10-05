@@ -1,0 +1,16 @@
+{
+  "chapter": 18,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "measurement_rmse_px": 1.6327173175714513,
+    "tracking_rmse_px": 1.1536719945667997
+  },
+  "scope": "Generated teaching data; local result only.",
+  "implementation": "src/cvzero/course/classical.py::single_tracking"
+}
