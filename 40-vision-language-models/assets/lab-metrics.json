@@ -1,0 +1,22 @@
+{
+  "chapter": 40,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "held_out_retrieval_accuracy": 0.8333333134651184,
+    "retrieved_word": "circle",
+    "vocabulary": [
+      "circle",
+      "square",
+      "triangle"
+    ]
+  },
+  "scope": "A trainable three-token dual encoder teaches alignment. It is not CLIP, free-form captioning or general VQA. Those use explicit optional pretrained adapters.",
+  "implementation": "src/cvzero/course/deep.py::vision_language",
+  "torch": "2.14.1+cpu"
+}
