@@ -1,0 +1,91 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CV Zero • Vision laboratory</title>
+<style>body{background:#101923;color:#eef4f8;font:16px system-ui;margin:0}main{max-width:1080px;margin:auto;padding:32px}h1{font-size:36px}p{line-height:1.6;color:#bfcfda}button,input{padding:12px;border-radius:8px;margin:5px;border:1px solid #405267}button{background:#8be0c0;cursor:pointer}section{display:grid;grid-template-columns:1fr 1fr;gap:18px}article{background:#1c2a39;border-radius:12px;padding:18px}canvas,img,video{width:100%;border-radius:8px}pre{white-space:pre-wrap;overflow-wrap:anywhere}#status{color:#8be0c0}@media(max-width:650px){section{grid-template-columns:1fr}}</style>
+<main><p>COMPUTER VISION · ZERO TO ADVANCED</p><h1>Real-time vision laboratory</h1><p>Detect colored regions, assign track IDs, classify round/angular shapes and measure foreground coverage. The default engine uses HSV and contours. These labels describe geometry, not real-world object categories.</p><button id="demo">Run synthetic stream</button><button id="camera">Use webcam</button><button id="stop">Stop</button><input id="file" type="file" accept="image/png,image/jpeg,image/webp,video/mp4,video/webm"><p id="status" role="status">Ready — runs locally. Images are processed without being stored.</p><section><article><h2>Input</h2><canvas id="input" width="480" height="320"></canvas><video id="video" hidden autoplay muted playsinline></video></article><article><h2>Analysis</h2><img id="output" alt="Annotated result appears after processing"><pre id="metrics"></pre></article></section><p>One request is in flight at a time. Stop releases the camera. Frame IDs reject late or repeated requests. SQLite stores numeric reports; restart the service to reset active tracking sessions.</p></main>
+<script>
+const $ = id => document.getElementById(id);
+const canvas = $('input'), ctx = canvas.getContext('2d');
+let session, frame = 0, generation = 0, running = false, mode = 'demo', stream = null, fileURL = null;
+async function json(url, options = {}) {
+  const response = await fetch(url, options);
+  const data = await response.json();
+  if (!response.ok) throw Error(typeof data.detail === 'string' ? data.detail : JSON.stringify(data.detail));
+  return data;
+}
+function stop() {
+  generation++; running = false;
+  if (stream) { stream.getTracks().forEach(track => track.stop()); stream = null; }
+  $('video').pause(); $('video').srcObject = null;
+  if (fileURL) { URL.revokeObjectURL(fileURL); fileURL = null; }
+  $('status').textContent = 'Stopped';
+}
+async function init(token) {
+  const response = await json('/sessions', {method: 'POST'});
+  if (token !== generation) return false;
+  session = response.session_id; frame = 0; return true;
+}
+async function process(token) {
+  const start = performance.now(), identity = session, id = frame++;
+  const result = await json(`/sessions/${identity}/frames`, {
+    method: 'POST', headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({frame_id: id, image_base64: canvas.toDataURL('image/jpeg', .8).split(',')[1]})
+  });
+  if (token !== generation) return;
+  $('output').src = 'data:image/jpeg;base64,' + result.image_base64;
+  $('metrics').textContent = JSON.stringify({frame: result.frame_id, objects: result.count,
+    foreground: result.segmentation_fraction, engine_ms: result.latency_ms,
+    round_trip_ms: performance.now()-start, detector: result.detector, detections: result.detections}, null, 2);
+}
+async function loop(token) {
+  if (!running || token !== generation) return;
+  try {
+    if (mode === 'demo') {
+      ctx.fillStyle = '#14202e'; ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = '#ef6565'; ctx.beginPath(); ctx.arc(45+frame%130*3, 100, 28, 0, Math.PI*2); ctx.fill();
+      ctx.fillStyle = '#63dbb4'; ctx.fillRect(280, 180, 65, 65);
+    } else {
+      if ($('video').ended) { stop(); $('status').textContent = 'Video complete'; return; }
+      ctx.drawImage($('video'), 0, 0, canvas.width, canvas.height);
+    }
+    await process(token);
+    if (running && token === generation) requestAnimationFrame(() => loop(token));
+  } catch (error) { if (token === generation) { stop(); $('status').textContent = error.message; } }
+}
+$('demo').onclick = async () => {
+  stop(); const token = generation;
+  try { canvas.width = 480; canvas.height = 320; if (!await init(token)) return;
+    mode = 'demo'; running = true; $('status').textContent = 'Synthetic stream running'; loop(token);
+  } catch (error) { $('status').textContent = error.message; }
+};
+$('camera').onclick = async () => {
+  stop(); const token = generation;
+  try {
+    const acquired = await navigator.mediaDevices.getUserMedia({video: {width: 480, height: 320}});
+    if (token !== generation) { acquired.getTracks().forEach(track => track.stop()); return; }
+    stream = acquired; $('video').srcObject = stream; await $('video').play();
+    if (!await init(token)) return;
+    canvas.width = 480; canvas.height = 320; mode = 'camera'; running = true;
+    $('status').textContent = 'Webcam running locally'; loop(token);
+  } catch (error) { if (token === generation) { stop(); $('status').textContent = 'Webcam unavailable: ' + error.message; } }
+};
+$('stop').onclick = stop;
+$('file').onchange = async event => {
+  stop(); const token = generation;
+  try {
+    const file = event.target.files[0]; if (!file) return;
+    if (file.type.startsWith('video/')) {
+      fileURL = URL.createObjectURL(file); $('video').src = fileURL;
+      await $('video').play(); if (!await init(token)) return;
+      canvas.width = 480; canvas.height = Math.max(1, Math.min(1600, Math.round($('video').videoHeight*480/$('video').videoWidth)));
+      mode = 'file'; running = true; $('status').textContent = 'Local video running; frames may be skipped to keep results current'; loop(token);
+    } else {
+      const bitmap = await createImageBitmap(file);
+      if (token !== generation) { bitmap.close(); return; }
+      const height = Math.round(bitmap.height*480/bitmap.width);
+      if (height > 1600) { bitmap.close(); throw Error('Choose a less tall image'); }
+      canvas.width = 480; canvas.height = height; ctx.drawImage(bitmap, 0, 0, canvas.width, canvas.height); bitmap.close();
+      if (!await init(token)) return; await process(token); $('status').textContent = 'Image processed';
+    }
+  } catch (error) { if (token === generation) { stop(); $('status').textContent = error.message; } }
+};
+window.addEventListener('beforeunload', stop);
+</script></html>
