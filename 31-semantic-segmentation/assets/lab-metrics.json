@@ -1,0 +1,20 @@
+{
+  "chapter": 31,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "held_out_pixel_iou": 0.8787436084733382,
+    "held_out_dice": 0.9354587869325993,
+    "train_samples": 64,
+    "test_samples": 12,
+    "epochs": 4
+  },
+  "scope": "Generated shapes establish pipeline behavior. These are not industrial or medical-diagnostic results.",
+  "implementation": "src/cvzero/course/deep.py::segmentation_lab",
+  "torch": "2.14.1+cpu"
+}
