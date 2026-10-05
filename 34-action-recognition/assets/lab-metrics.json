@@ -1,0 +1,17 @@
+{
+  "chapter": 34,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "held_out_direction_accuracy": 1.0,
+    "sequence_length": 12
+  },
+  "scope": "The GRU classifies generated motion direction, not intent or human behavior. CNN+RNN, 3D CNN and temporal transformers are discussed in the chapter.",
+  "implementation": "src/cvzero/course/deep.py::actions",
+  "torch": "2.14.1+cpu"
+}
