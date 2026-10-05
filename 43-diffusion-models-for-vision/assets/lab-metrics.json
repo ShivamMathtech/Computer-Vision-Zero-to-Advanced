@@ -1,0 +1,17 @@
+{
+  "chapter": 43,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "updates": 40,
+    "diffusion_steps": 32
+  },
+  "scope": "Fixed-variance DDPM-style teaching sampler; short CPU runs often make poor samples. No pretrained diffusion weights or quality metric is implied.",
+  "implementation": "src/cvzero/course/deep.py::diffusion",
+  "torch": "2.14.1+cpu"
+}
