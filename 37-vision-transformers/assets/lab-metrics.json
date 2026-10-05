@@ -1,0 +1,22 @@
+{
+  "chapter": 37,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "tokens_shape": [
+      3,
+      16,
+      24
+    ],
+    "patch_size": 6,
+    "embedding_dimension": 24
+  },
+  "scope": "Generated teaching data; local result only.",
+  "implementation": "src/cvzero/course/deep.py::vit",
+  "torch": "2.14.1+cpu"
+}
