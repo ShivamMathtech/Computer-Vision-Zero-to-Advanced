@@ -1,0 +1,17 @@
+{
+  "chapter": 20,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "nearest_synthetic_identity": 1,
+    "verified_with_threshold": true,
+    "threshold": 2.0
+  },
+  "scope": "Synthetic vectors demonstrate verification mathematics. They are not a face-recognition model or evidence of biometric accuracy.",
+  "implementation": "src/cvzero/course/classical.py::recognition"
+}
