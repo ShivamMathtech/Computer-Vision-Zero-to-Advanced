@@ -1,0 +1,15 @@
+{
+  "chapter": 13,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "reference_edge_pixels": 541
+  },
+  "scope": "Simplified Canny uses four quantized directions and relative thresholds; it is not bit-identical to OpenCV Canny.",
+  "implementation": "src/cvzero/course/classical.py::edges"
+}
