@@ -1,0 +1,20 @@
+{
+  "chapter": 24,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "checkpoint_max_logit_error": 0.0,
+    "held_out_accuracy": 0.4333333373069763,
+    "epochs": 3,
+    "batch_size": 16,
+    "learning_rate": 0.01
+  },
+  "scope": "Generated teaching data; local result only.",
+  "implementation": "src/cvzero/course/deep.py::pytorch_lab",
+  "torch": "2.14.1+cpu"
+}
