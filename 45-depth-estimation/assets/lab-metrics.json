@@ -1,0 +1,16 @@
+{
+  "chapter": 45,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "valid_fraction": 1.0,
+    "valid_mae_m": 0.047938565970738166
+  },
+  "scope": "Stereo depth from known calibration; zero disparity is invalid. Monocular learned depth may have unknown scale, so it cannot silently be substituted into this formula as metric distance.",
+  "implementation": "src/cvzero/course/spatial.py::depth"
+}
