@@ -1,0 +1,1451 @@
+{
+  "executed_at_utc": "2026-10-04T12:28:33.179874+00:00",
+  "python": "3.12.14",
+  "engine": "ipykernel.inprocess; one fresh subprocess per notebook",
+  "fresh_kernel_per_notebook": true,
+  "results": [
+    {
+      "notebook": "01-python-for-computer-vision/notebooks/01_python_and_images.ipynb",
+      "status": "passed",
+      "seconds": 2.4596066359999895,
+      "code_cells": 8,
+      "png_outputs": 3,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "01-python-for-computer-vision/notebooks/02_numpy_pixels.ipynb",
+      "status": "passed",
+      "seconds": 2.4646964839998873,
+      "code_cells": 8,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "01-python-for-computer-vision/notebooks/03_functions_classes_files.ipynb",
+      "status": "passed",
+      "seconds": 2.683010415999888,
+      "code_cells": 8,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "01-python-for-computer-vision/notebooks/04_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.303880654000295,
+      "code_cells": 8,
+      "png_outputs": 3,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "02-mathematics-for-computer-vision/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 3.805370459000187,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "02-mathematics-for-computer-vision/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 3.5556705409999267,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "02-mathematics-for-computer-vision/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.6219602719997965,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "03-image-fundamentals/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 3.5140223979997245,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "03-image-fundamentals/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 4.149206358999891,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "03-image-fundamentals/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.7621973110003637,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "04-opencv-fundamentals/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 4.252896502000112,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "04-opencv-fundamentals/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 4.218896830999711,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "04-opencv-fundamentals/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 4.036373182000261,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "05-image-processing/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 4.355704749999859,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "05-image-processing/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 3.9965031169999747,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "05-image-processing/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 4.373504934999801,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "06-image-enhancement/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 4.084922522999932,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "06-image-enhancement/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 4.050721956999951,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "06-image-enhancement/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 4.004140236000239,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "07-geometric-transformations/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 3.7788110890001008,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "07-geometric-transformations/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 3.5434553080003752,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "07-geometric-transformations/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.4986979329996757,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "08-color-spaces/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 3.9325764909999634,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "08-color-spaces/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 3.762947703000009,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "08-color-spaces/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.748620755000047,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "09-feature-detection/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 4.073188279000078,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "09-feature-detection/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 4.227841329000057,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "09-feature-detection/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 4.270799177000299,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "10-feature-description-and-matching/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 3.4992113839998638,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "10-feature-description-and-matching/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 3.7342576800001552,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "10-feature-description-and-matching/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.949559530999977,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "11-morphological-image-processing/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 4.068418697000197,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "11-morphological-image-processing/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 4.264121404999969,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "11-morphological-image-processing/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.804303627000081,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "12-contours-and-shapes/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 3.527619412999684,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "12-contours-and-shapes/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 3.4747918930002015,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "12-contours-and-shapes/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.7731724270001905,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "13-edge-and-corner-detection/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 7.061006550999991,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "13-edge-and-corner-detection/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 10.203165491000163,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "13-edge-and-corner-detection/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 7.295239897000101,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "14-segmentation-classical/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 4.222422824000205,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "14-segmentation-classical/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 4.3215665570000965,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "14-segmentation-classical/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 4.102909111999907,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "15-video-processing/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 4.018122898000001,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "15-video-processing/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 3.9126656480002566,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "15-video-processing/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 4.182211237000047,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "16-camera-and-calibration/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 4.167292627999814,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "16-camera-and-calibration/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 4.057933944999604,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "16-camera-and-calibration/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.8732438409997485,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "17-motion-detection/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 3.9430857709999145,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "17-motion-detection/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 3.9200194199997895,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "17-motion-detection/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.716899764000118,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "18-object-tracking/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 3.512323594999998,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "18-object-tracking/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 3.5876974819998395,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "18-object-tracking/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.7473020839997844,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "19-face-detection/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 3.8882881259996793,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "19-face-detection/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 4.209275247000278,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "19-face-detection/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 4.061737026999708,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "20-face-recognition/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 4.20071826100002,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "20-face-recognition/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 4.069696921000286,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "20-face-recognition/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.913600478999797,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "21-ocr/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 4.203605268000047,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "21-ocr/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 3.928932494000037,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "21-ocr/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.9047229280004103,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "22-machine-learning-for-vision/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 3.7970874970001205,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "22-machine-learning-for-vision/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 3.7017881299998407,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "22-machine-learning-for-vision/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.754018436000024,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "23-cnn-fundamentals/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 9.203085265000027,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "23-cnn-fundamentals/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 6.595019830000183,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "23-cnn-fundamentals/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 11.684911460999956,
+      "code_cells": 7,
+      "png_outputs": 3,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "24-pytorch-for-computer-vision/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 6.932975946999704,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "24-pytorch-for-computer-vision/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 7.019174129000021,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "24-pytorch-for-computer-vision/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 7.0964908099999775,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "25-image-classification/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 6.8173610019998705,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "25-image-classification/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 6.821557419999863,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "25-image-classification/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 6.963092740999855,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "26-transfer-learning/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 6.654122363999704,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "26-transfer-learning/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 6.646488665000106,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "26-transfer-learning/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 6.746839825999814,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "27-object-detection/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 4.854417229999854,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "27-object-detection/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 4.904845395999928,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "27-object-detection/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 5.188311363000139,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "28-yolo/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 6.888243473999864,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "28-yolo/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 6.807249235000199,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "28-yolo/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 6.663333709000199,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "29-object-segmentation/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 7.410361768999792,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "29-object-segmentation/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 7.395963088999906,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "29-object-segmentation/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 7.091866005000156,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "30-instance-segmentation/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 5.650960863999899,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "30-instance-segmentation/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 5.5978698910003,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "30-instance-segmentation/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 5.585950828000023,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "31-semantic-segmentation/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 7.093818075000399,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "31-semantic-segmentation/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 6.976215159999811,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "31-semantic-segmentation/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 7.388909925000007,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "32-pose-estimation/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 4.731088889000148,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "32-pose-estimation/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 5.103121884999837,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "32-pose-estimation/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 5.330775987999914,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "33-hand-tracking/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 5.27305651000006,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "33-hand-tracking/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 5.189180525000211,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "33-hand-tracking/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 5.340874096000334,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "34-action-recognition/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 6.744342681999569,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "34-action-recognition/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 6.928548082999896,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "34-action-recognition/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 6.869969317000141,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "35-optical-flow/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 3.1847141580001335,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "35-optical-flow/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 3.6738216210001156,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "35-optical-flow/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.463447956999971,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "36-multi-object-tracking/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 3.0582149670003673,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "36-multi-object-tracking/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 3.1698557690001508,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "36-multi-object-tracking/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.2221147669997663,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "37-vision-transformers/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 5.874639480000042,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "37-vision-transformers/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 7.56604934500001,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "37-vision-transformers/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 7.387249749000148,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "38-attention-mechanisms/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 7.40702153999996,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "38-attention-mechanisms/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 7.794851724000182,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "38-attention-mechanisms/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 7.0647799240000495,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "39-self-supervised-learning/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 7.020776160999958,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "39-self-supervised-learning/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 7.033684931000153,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "39-self-supervised-learning/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 6.7712776220000706,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "40-vision-language-models/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 6.746061933999954,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "40-vision-language-models/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 6.600720001999889,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "40-vision-language-models/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 6.398560059999909,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "41-multimodal-computer-vision/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 2.5938915700003236,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "41-multimodal-computer-vision/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 2.3947834390000935,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "41-multimodal-computer-vision/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 2.6939243659999192,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "42-generative-computer-vision/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 7.203305521000402,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "42-generative-computer-vision/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 7.266952511999989,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "42-generative-computer-vision/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 7.095415018999574,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "43-diffusion-models-for-vision/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 7.2250676570001815,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "43-diffusion-models-for-vision/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 6.830451460999939,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "43-diffusion-models-for-vision/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 7.045937559000322,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "44-3d-computer-vision/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 2.9345650659997773,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "44-3d-computer-vision/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 2.903583570999672,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "44-3d-computer-vision/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 2.6828103329999067,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "45-depth-estimation/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 3.0481717220000064,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "45-depth-estimation/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 3.0740302789999987,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "45-depth-estimation/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.055473290000009,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "46-stereo-vision/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 3.115338148000319,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "46-stereo-vision/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 3.3379713589997664,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "46-stereo-vision/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.461482356000033,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "47-point-clouds/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 3.5880966690001515,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "47-point-clouds/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 3.6110873869997704,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "47-point-clouds/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.226094486999955,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "48-neural-radiance-fields/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 6.757600906999869,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "48-neural-radiance-fields/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 6.912071901000218,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "48-neural-radiance-fields/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 6.879867224000009,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "49-model-optimization/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 3.644153467000251,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "49-model-optimization/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 3.705198417000247,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "49-model-optimization/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.7052915909998774,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "50-computer-vision-deployment/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 6.627424192000035,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "50-computer-vision-deployment/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 4.98508298999991,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "50-computer-vision-deployment/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 6.72623458399994,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "51-edge-ai/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 3.9293020869999964,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "51-edge-ai/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 3.7351002169998537,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "51-edge-ai/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.5270202279998557,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "52-real-time-computer-vision/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 3.1976329129997794,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "52-real-time-computer-vision/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 3.463024095000037,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "52-real-time-computer-vision/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.5507955759999277,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "53-production-computer-vision/notebooks/01_foundations.ipynb",
+      "status": "passed",
+      "seconds": 3.7257193219998044,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "53-production-computer-vision/notebooks/02_mechanisms.ipynb",
+      "status": "passed",
+      "seconds": 3.7308928310003466,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    },
+    {
+      "notebook": "53-production-computer-vision/notebooks/03_practical_experiments.ipynb",
+      "status": "passed",
+      "seconds": 3.6322832840000956,
+      "code_cells": 6,
+      "png_outputs": 2,
+      "kind": "lesson"
+    }
+  ],
+  "assembled_at_utc": "2026-10-04T17:34:48.655229+00:00",
+  "notebook_sha256": {
+    "01-python-for-computer-vision/notebooks/01_python_and_images.ipynb": "9aea830ff670a81b7043a121dad199a65153bd6ea086e6be5484aec36de38e83",
+    "01-python-for-computer-vision/notebooks/02_numpy_pixels.ipynb": "3bba5e6e45b1e00ad92b105d06365ea4f527505aea2f1629149471d5e9d407bb",
+    "01-python-for-computer-vision/notebooks/03_functions_classes_files.ipynb": "6459c29c0cb977e9f077c742e3e3964c605f822069b1fcfdc470cec0f74ac14b",
+    "01-python-for-computer-vision/notebooks/04_practical_experiments.ipynb": "384151a184487dd1cfd1328a2715cd3fa8deffbf3c82f5a7a1621e6b1592154d",
+    "02-mathematics-for-computer-vision/notebooks/01_foundations.ipynb": "c4de7c825d1b5f88db54348c6736490c112e0d66a511fe2d2ba8a25a499e3b9c",
+    "02-mathematics-for-computer-vision/notebooks/02_mechanisms.ipynb": "709f7b1f28519a5d7ec88d70c3fbd9831db4f790ae51c74f2a64e78a3bd1729a",
+    "02-mathematics-for-computer-vision/notebooks/03_practical_experiments.ipynb": "79e3601331a7e2974acb0401ce6c4bb4bbc3dad4b9c0a5fba43ad2d9d45bf174",
+    "03-image-fundamentals/notebooks/01_foundations.ipynb": "3beb3c354f1160f65a569c989d81eb2a63851d9c38dec7de18968e88ac0995c3",
+    "03-image-fundamentals/notebooks/02_mechanisms.ipynb": "7417beaba91f7cb42c7be98b49c905d98c32e379a0f1be84382b32645df0f7fc",
+    "03-image-fundamentals/notebooks/03_practical_experiments.ipynb": "2e94b382ebca6ed17834bb374a76ac0f51eb506231e82395d9016b7fe3eef7a0",
+    "04-opencv-fundamentals/notebooks/01_foundations.ipynb": "47a74699a8824eb48ed7fc9449d9080c52a153f2dbe341acd27017c9cadb6c6d",
+    "04-opencv-fundamentals/notebooks/02_mechanisms.ipynb": "3b47d9e4197c54511d880934d1e82d9cb3dd77ee5d64db8b56dad81b8d15a505",
+    "04-opencv-fundamentals/notebooks/03_practical_experiments.ipynb": "154890c9092949a2bf92a3e89b8454ea3e10b7c7adcac1cb6a6a52400dec585d",
+    "05-image-processing/notebooks/01_foundations.ipynb": "596b8e1f172e7c8287b09407e940243aa6aa045851b95be29ce8a0e655c64c84",
+    "05-image-processing/notebooks/02_mechanisms.ipynb": "65f541f47b0e853d85a40b82957e548f53d219ca9e221984b8e844efafa05805",
+    "05-image-processing/notebooks/03_practical_experiments.ipynb": "c3440ae7047bb627c1a85a947e2e473ad0db3faa1bc93a9122f26f59309cb121",
+    "06-image-enhancement/notebooks/01_foundations.ipynb": "e8bfeea038a0f6e73baae368184ab850bdb155061df2b249592d3eecf882e272",
+    "06-image-enhancement/notebooks/02_mechanisms.ipynb": "a8af6486760c0bfbe75252a52ad262e116bb12fa3d038a948898beec933a112e",
+    "06-image-enhancement/notebooks/03_practical_experiments.ipynb": "079f0255f4e163391e4491c731de9ab6dfdc7079ea7e8079a819485ed9e85e27",
+    "07-geometric-transformations/notebooks/01_foundations.ipynb": "9dd8e54aee45e339cf93e2ec9a9ba0ba55515792fdc57001a649fbc0c6069ada",
+    "07-geometric-transformations/notebooks/02_mechanisms.ipynb": "1c9712b90b6104a65d69744aadb792f5ed4adad7f28fb5c3d4a830535cd54e44",
+    "07-geometric-transformations/notebooks/03_practical_experiments.ipynb": "54130b70e591bc91fa7d9d91d62f53515226cd8b97ba110297f3b09250ab59d6",
+    "08-color-spaces/notebooks/01_foundations.ipynb": "44378ba5cab0fc0522f05a2c3672150513abc61f847c8f61e65cd10aa5eef784",
+    "08-color-spaces/notebooks/02_mechanisms.ipynb": "6ef920ad5ccaf03cddda3f73d72c82e28835527a1a2977e9586d72712cd2b572",
+    "08-color-spaces/notebooks/03_practical_experiments.ipynb": "53f901b21bf87c9cbc8835c97624e66c263523a2e1b4db054f3c78bdffbd1f1c",
+    "09-feature-detection/notebooks/01_foundations.ipynb": "7cab8bb7c45b466b3bf0b5bfd70837362c94ddcf5f2b76390f29ebb9106c6ae1",
+    "09-feature-detection/notebooks/02_mechanisms.ipynb": "962b252f59b4ab57dbf2056cad8144b4285fd3ebc2eb249e0cc6106ea5e605ca",
+    "09-feature-detection/notebooks/03_practical_experiments.ipynb": "f45a3bbf9191ceea4be7979aeefd0695212580b151916d436a0be1fc40b081a2",
+    "10-feature-description-and-matching/notebooks/01_foundations.ipynb": "348e129db7ee3b8170d0201bb730fdb6d00bb5cfcedd258267e7d06f14ef284e",
+    "10-feature-description-and-matching/notebooks/02_mechanisms.ipynb": "b89419442a2b9aca335dc35378dfd60eba6dc33591c89fba04d14de12bd629ae",
+    "10-feature-description-and-matching/notebooks/03_practical_experiments.ipynb": "fcce329f91cd1a00d50ed10a524b4f6c8471a7eb79870e8131ef5423116710c8",
+    "11-morphological-image-processing/notebooks/01_foundations.ipynb": "941a0dbbc6cfb7287706ea5ad3dca41c18b9c5d51d7cc1428c75b929d27e4c7f",
+    "11-morphological-image-processing/notebooks/02_mechanisms.ipynb": "3b2b3b007481b5f4dcf4e8cb3245e9f851e247c5baf52cd3b419cd0e3592b68a",
+    "11-morphological-image-processing/notebooks/03_practical_experiments.ipynb": "892d9de20327c60632543fc9b2d4816d3fbc7a1581ccc309fdcfe6f591c45aa2",
+    "12-contours-and-shapes/notebooks/01_foundations.ipynb": "f913bd1657a68031244fba91d686072e041785a95d963b530a6897c3a22f5ea8",
+    "12-contours-and-shapes/notebooks/02_mechanisms.ipynb": "23f41d9e66a63950215f4f416395c6f44010658a51b6b65840bdfb4254db1080",
+    "12-contours-and-shapes/notebooks/03_practical_experiments.ipynb": "32ed755d12caa3e31f88f325ae4abd21a6f9379fe21f6a3995f08fa33dd439d8",
+    "13-edge-and-corner-detection/notebooks/01_foundations.ipynb": "df92caf3d3caa482bcf998523a59b301440a2abec1684c24abe6a65ff5acd8b7",
+    "13-edge-and-corner-detection/notebooks/02_mechanisms.ipynb": "81bf8aa1d33b97755f2414143c0b5da0c81ba6b2e91e6ad8c08f2e9d0e3af03c",
+    "13-edge-and-corner-detection/notebooks/03_practical_experiments.ipynb": "2d23234bb4e94137ce1fab0d577c5c0741830134d4a4d972195a063053dc3326",
+    "14-segmentation-classical/notebooks/01_foundations.ipynb": "ce7714bb2002df3974074a97e7966dd610a51409b04313a91f2a7471f46ae41f",
+    "14-segmentation-classical/notebooks/02_mechanisms.ipynb": "51e44030080f0eab5e157b7c5214f28cf51ebf1b84c478b58a8ab855e6e8371f",
+    "14-segmentation-classical/notebooks/03_practical_experiments.ipynb": "55ee97cc8e8bbfbd7948651774f61c0f0238c09c2389d51a2b2b19eb235cc8e2",
+    "15-video-processing/notebooks/01_foundations.ipynb": "60c46f1e434c634c9fd460e9e2ac8ac0d05a66a12f4d3a4076cc2f3e54033451",
+    "15-video-processing/notebooks/02_mechanisms.ipynb": "f6b060e2018d0b7adb8a8acb41b32e2de446e24f260eb227d949cd8875d2fba7",
+    "15-video-processing/notebooks/03_practical_experiments.ipynb": "fc0b8012fe1b6bcce0416a8a7c565d5d2d56f2e34607ac34f54950f82fca5048",
+    "16-camera-and-calibration/notebooks/01_foundations.ipynb": "92c28679d6c89cc76b623cd3420c0ed0ff3f3358075b610c11c8a41f306f4594",
+    "16-camera-and-calibration/notebooks/02_mechanisms.ipynb": "6c4e6f0b1286d1e0042b679f51a59b5435647f7027ee591e7e6a1ea3ddad1fdf",
+    "16-camera-and-calibration/notebooks/03_practical_experiments.ipynb": "0dfee7c1384c3755d121a3f06b16db6c2c8c5fbdb261988eb6e740f3e2edd10a",
+    "17-motion-detection/notebooks/01_foundations.ipynb": "0a038e9a7a309de3aba67b6a54bac54e801995f2f3657ad7fa90d84dbbc49f0c",
+    "17-motion-detection/notebooks/02_mechanisms.ipynb": "295bd70312c84d568e880f52882ab85c069f8024baed0c272c10eb0b6b5fab47",
+    "17-motion-detection/notebooks/03_practical_experiments.ipynb": "69545e6e4fe54210c61d33cc08c4bc9480a9883bb451f40d64d5ac3cef645392",
+    "18-object-tracking/notebooks/01_foundations.ipynb": "eacbb38ea7b76a8abfa686dbd4d88439bea7ff3c26d069a5de8b8a3cd355e541",
+    "18-object-tracking/notebooks/02_mechanisms.ipynb": "ff7266fb2cb751a4be9f4192bffdab8c271fed41f3f2c1f2e056418d38239785",
+    "18-object-tracking/notebooks/03_practical_experiments.ipynb": "74b9e183402a017847ee4fd8cf8de3a1c4a37ce6edad987c7c722d874abca1b9",
+    "19-face-detection/notebooks/01_foundations.ipynb": "0c5f29a87226275a7bf17c63dcca2ec1c61ee560ffff330360bdeed09467d98c",
+    "19-face-detection/notebooks/02_mechanisms.ipynb": "d7747e282a17052c17bd4d1df7e8c2c9a304730e0b2cbdf726be853eec1d552a",
+    "19-face-detection/notebooks/03_practical_experiments.ipynb": "7a1706c26c91623b3cc585e9c18766570eaf9ff600a86a8b9f1df9ee881719c6",
+    "20-face-recognition/notebooks/01_foundations.ipynb": "6cba93bda9be4a4e17421d3c4f0a221e092706c7cdf0a40da701a285f236d234",
+    "20-face-recognition/notebooks/02_mechanisms.ipynb": "4fce353235ccec53857faebb4a632c3e3194ebd8ae50ef167376fda83543021a",
+    "20-face-recognition/notebooks/03_practical_experiments.ipynb": "0a399545a9ab3b3d6aa651e1f74d7b203a87e900cb147d48a7889622c6a8a2b5",
+    "21-ocr/notebooks/01_foundations.ipynb": "8a2f1b60bec8f9a8b5c39280ff92e9cd1986f690d92585fc1530c295b2e669c1",
+    "21-ocr/notebooks/02_mechanisms.ipynb": "f74e60f1ba11d498dc09b5b87e4424e2d7c71f86b3152a5058ed0fd6154de3bc",
+    "21-ocr/notebooks/03_practical_experiments.ipynb": "8f038f4fe0dcb9204faee064a85a6120220aad7ccb5b68905de23dfcc8eb698d",
+    "22-machine-learning-for-vision/notebooks/01_foundations.ipynb": "0e79dff777cd22e7e433cf845fc2541b6378cc114cdcf1a1b3c26c064c8d35e9",
+    "22-machine-learning-for-vision/notebooks/02_mechanisms.ipynb": "946fc9ff4d4df9cd4a29f60c88e9f4cada77caf7ef1b39ce1c641a47a00dcf6b",
+    "22-machine-learning-for-vision/notebooks/03_practical_experiments.ipynb": "97519d3c78cb9c2e4fe987b0111a60cd1f091633edcb69b93c95c2ca737ee958",
+    "23-cnn-fundamentals/notebooks/01_foundations.ipynb": "77c813740a2056eae321aefbd5164f8ccfeb2db004c5afb3139fb46f7cc89246",
+    "23-cnn-fundamentals/notebooks/02_mechanisms.ipynb": "922ebd1e9677eec4e996e2e64afff94b4c27d36a92bd94ecbb40ac15618f8643",
+    "23-cnn-fundamentals/notebooks/03_practical_experiments.ipynb": "86b6f43d799fa1bd123547b52e978ea6e75f8397d7eb1d3b989a4962bec98d67",
+    "24-pytorch-for-computer-vision/notebooks/01_foundations.ipynb": "11e5cb88ed425b1dd8607e05f620e97a3bd9a6f2e41d22cccc43fb5dcdc46c21",
+    "24-pytorch-for-computer-vision/notebooks/02_mechanisms.ipynb": "c8e6c8cb6a335a6f0a243a0e7309bfdee7afb59ceb686e92110c01a62b0a6060",
+    "24-pytorch-for-computer-vision/notebooks/03_practical_experiments.ipynb": "9e744e8d1641ad164e7a772b6a85d5baefcae9326fc94477c2a61d05db1b0625",
+    "25-image-classification/notebooks/01_foundations.ipynb": "0cf2c2c274203ce9a942b03ff258e7facec8ca4f7bd10d9b56bf6e022c4a7b41",
+    "25-image-classification/notebooks/02_mechanisms.ipynb": "06416fc2168fcb7589bd95a489604fad9f602a61b2980435f9c8a16725e27d22",
+    "25-image-classification/notebooks/03_practical_experiments.ipynb": "2df820e4a767d05f8525e0b42088e3e6023f278a260619225ad81a392aa7812c",
+    "26-transfer-learning/notebooks/01_foundations.ipynb": "b3da10926f50f50b130b0a1769927967e2b968845aa2c87c57dfaa5721258d58",
+    "26-transfer-learning/notebooks/02_mechanisms.ipynb": "31314064960fa9429fce521365374126592f9811dbf15b2c9d26d0d5ba0ecbc2",
+    "26-transfer-learning/notebooks/03_practical_experiments.ipynb": "4310e48313108a6f7bfb475478ee34f1592124a85e64be89a13d69449d05a430",
+    "27-object-detection/notebooks/01_foundations.ipynb": "221fd567d6ebabf34b7c7f584c3d262634e9d59ca2c90ef3307f706e596aa03e",
+    "27-object-detection/notebooks/02_mechanisms.ipynb": "d0cc2781a75dd49012859bd90568cd9ba58bb580190807af6b811317f9cbb16c",
+    "27-object-detection/notebooks/03_practical_experiments.ipynb": "d1ca17e7aa6417dc7684d2b044932ed5e60f1a3b3bca08bc22b7ba5567faa4a3",
+    "28-yolo/notebooks/01_foundations.ipynb": "21b1d5898765a9b7be5f7b463fa89e8f0c7961da647dc531eb50ea45f52d3f9a",
+    "28-yolo/notebooks/02_mechanisms.ipynb": "bc2825fe2b842b28913e5f898390ab3e0f5f3e2ee7bc51f74aa6409afd36e5c8",
+    "28-yolo/notebooks/03_practical_experiments.ipynb": "fdb8e4c481f7067298f2a18afd3670e9e7fee07813e3002d0b8c93a10d6999f4",
+    "29-object-segmentation/notebooks/01_foundations.ipynb": "4865e90980f3f9fa6c224d1a9e25d70fd3e5f070723fd53d347fa1723703e282",
+    "29-object-segmentation/notebooks/02_mechanisms.ipynb": "aed29720bb24830ef370ee3551bc4d7b4ca0c65eae9dadf10b8b55ca524f0503",
+    "29-object-segmentation/notebooks/03_practical_experiments.ipynb": "3a6992e0a11ea1f5ee4fa4fb39e10bff8a81cfbe8928312d109b04f1ca2b3f65",
+    "30-instance-segmentation/notebooks/01_foundations.ipynb": "3b8393fa38e0fb8415a3703541779269248d1e2780aebf47bbd4aa5452a29a49",
+    "30-instance-segmentation/notebooks/02_mechanisms.ipynb": "e53c00fd1ff316844afbda6abfdc46a672ed4d9790814c9151db6216f26c36cb",
+    "30-instance-segmentation/notebooks/03_practical_experiments.ipynb": "9cbc6dd44963fcb10c6f7ed8fa94d96a7042f6528de5997088915bf41e3a60b3",
+    "31-semantic-segmentation/notebooks/01_foundations.ipynb": "babe8b35b3487d56e95303f2777e6faa4aaa07ce253d9fb7a6fc72d79b1eed46",
+    "31-semantic-segmentation/notebooks/02_mechanisms.ipynb": "9d4a78cc1ca75ed71b4b8e83800f6ef4c1c37acc5335d2857356596e8470ff53",
+    "31-semantic-segmentation/notebooks/03_practical_experiments.ipynb": "50561c83cbd83545669408f994d258ebdc2db66f07fc63c84bad06669edc447e",
+    "32-pose-estimation/notebooks/01_foundations.ipynb": "e33a3a8ad19945c980f22a21b494c8c4b65786f80ed0701956d6af59cb43a7f7",
+    "32-pose-estimation/notebooks/02_mechanisms.ipynb": "50b103b3dcab694db34793e0c9f61c804a24abeb40faa3b1d8f78480600f3578",
+    "32-pose-estimation/notebooks/03_practical_experiments.ipynb": "90e287adbf7842ae9bc3014ce8243deaad22ea6eaadf6e77f92bd9e841034e93",
+    "33-hand-tracking/notebooks/01_foundations.ipynb": "01284eff1d7e2d63ec45af6441df4ef73b7aa15e2b52d9718ffaf151dd22e3be",
+    "33-hand-tracking/notebooks/02_mechanisms.ipynb": "5c34630febb8f9689c8154326574931931eede191841763af18e0a6660673a92",
+    "33-hand-tracking/notebooks/03_practical_experiments.ipynb": "2817fa0e6b10bc00886d5280b21edede68b59dfb80f968a673cb5075c07b7a3f",
+    "34-action-recognition/notebooks/01_foundations.ipynb": "e76a75231bdb98a4e4ead6d33b64bdc2ea76bb94b2ee7fc5d3f3b509b7b3f03d",
+    "34-action-recognition/notebooks/02_mechanisms.ipynb": "58184d7d5118571097a6a772ab951599ad8ff89a9b36a2ee5fe836c82fa213a3",
+    "34-action-recognition/notebooks/03_practical_experiments.ipynb": "f94fc1cd6d09e720e9dfbdfd25ccd0002798f9a57040281d236b6e8382c54e8a",
+    "35-optical-flow/notebooks/01_foundations.ipynb": "f04dea6898cf44589e068babbdaa0b05efda9ab50a384f6c647415750aea4044",
+    "35-optical-flow/notebooks/02_mechanisms.ipynb": "6ac388b6d97ca4a8acbc3a5852bbf81d17b82315cee3388ba61db4973ba5f8b4",
+    "35-optical-flow/notebooks/03_practical_experiments.ipynb": "3afd20f34c8f9dee103bdffcbb1accf1724bae9488019a968548aef867aa0376",
+    "36-multi-object-tracking/notebooks/01_foundations.ipynb": "8d016ac99b53cb24011f8ee98da5ae43b13631a99eeb381c26169ccb37ca8c33",
+    "36-multi-object-tracking/notebooks/02_mechanisms.ipynb": "b157da8dbe5f4cc2ce1b0be653e16653fb09e7736fb881ac85a5e1e6a37727e5",
+    "36-multi-object-tracking/notebooks/03_practical_experiments.ipynb": "6b4e8a1fbf508708a25759e31d67d14589645919a1cbac302a69bf2809c0269d",
+    "37-vision-transformers/notebooks/01_foundations.ipynb": "120bff059b91ad1fbba2ba286cf11e448ed1d0387d5b988f11ca7cc9774714fb",
+    "37-vision-transformers/notebooks/02_mechanisms.ipynb": "0454797edb57c38c2dc0ad88ccc062127586ccc83ad8c1e750ea2fe932ca8b29",
+    "37-vision-transformers/notebooks/03_practical_experiments.ipynb": "ff4d9b32266226e8457a73cd6048af96cdd9324085cc2a1750b35e12725f882f",
+    "38-attention-mechanisms/notebooks/01_foundations.ipynb": "f05b23246aeb7065788020edcad6d2530795fe6de10d4b1e0592542b8bc22cf1",
+    "38-attention-mechanisms/notebooks/02_mechanisms.ipynb": "9b5eecc66fa973bb00b6984b1a2f434d0f291ea3a6897170c426d5dacd842c56",
+    "38-attention-mechanisms/notebooks/03_practical_experiments.ipynb": "552aa43bdb622bbfd6ffb0b1462499487cd792fe1f75a86e0e6be24fa6938c89",
+    "39-self-supervised-learning/notebooks/01_foundations.ipynb": "3a4cd3959ad5d0c7f9f2d2404feecf7a228e268904153b2c8128c911b3e8d819",
+    "39-self-supervised-learning/notebooks/02_mechanisms.ipynb": "5f35b0b88222c651a98448a9221165d37bd430b4be2dc8e363fdaa8720c7566c",
+    "39-self-supervised-learning/notebooks/03_practical_experiments.ipynb": "e0ee61c0433731be57b143d38734b3da56102b9d8a3a1d4b28aa606e9be2f0e3",
+    "40-vision-language-models/notebooks/01_foundations.ipynb": "c227758b0b983b34107af762b5670613558e187989b5bd959f9026a51cdc46be",
+    "40-vision-language-models/notebooks/02_mechanisms.ipynb": "e34b7c8a9f6a75a35726ab72620892970e98a340e4ab55a789b53f417468d23b",
+    "40-vision-language-models/notebooks/03_practical_experiments.ipynb": "fb5feafe8dbdf1f2133d743c9ff3ecf82dac7f8feb83b4c8b84e2e3b271dd512",
+    "41-multimodal-computer-vision/notebooks/01_foundations.ipynb": "559681422029312ca2209155844857197d051af4070574c28fad485f47fbc197",
+    "41-multimodal-computer-vision/notebooks/02_mechanisms.ipynb": "4e7d6a689adc42cfe45551aa3886a963f3163f0ce80afb38baf27f991f38ddc6",
+    "41-multimodal-computer-vision/notebooks/03_practical_experiments.ipynb": "544b3b237d4de74276e04f468537224da7f903bfa96ae5866124096c81084ace",
+    "42-generative-computer-vision/notebooks/01_foundations.ipynb": "7f40cbcba7ddba3e0e8057454a412ef8d83177e21a7d86932e1005b6df7c2363",
+    "42-generative-computer-vision/notebooks/02_mechanisms.ipynb": "23f4a53f16c1a9e75ca51d2261f3d5e63819944bcdcad853ba42317b23864388",
+    "42-generative-computer-vision/notebooks/03_practical_experiments.ipynb": "6741a47e72dac69beccc02b9d48cb96646fea3f231caad2395b28d312ec9bf3c",
+    "43-diffusion-models-for-vision/notebooks/01_foundations.ipynb": "52a1f25b3707f962977a0e8ebf3357fa8e5deeedbc38f96f844eb18d337e36e6",
+    "43-diffusion-models-for-vision/notebooks/02_mechanisms.ipynb": "3d5bc1033862cdb55a9d91a40f2137df8f916b2d1007a400ef8598a21c45d194",
+    "43-diffusion-models-for-vision/notebooks/03_practical_experiments.ipynb": "45ed0b53974dd8c7d2bd96d220f98c3fc75a20b38ababd4011f2ac997efca569",
+    "44-3d-computer-vision/notebooks/01_foundations.ipynb": "19e88e7458a20cd883365d6766d8efc79f47ab5cfccc92b5c81d6303d48ae1bf",
+    "44-3d-computer-vision/notebooks/02_mechanisms.ipynb": "6b7a053d6a50c6de69bd76cbb9863a185c593ec9d38a770926c0cd64dc472b98",
+    "44-3d-computer-vision/notebooks/03_practical_experiments.ipynb": "ee6bb11682ffb450a99c1a6d13f879281e3b684b45b27dfe3cefd89c9a45c783",
+    "45-depth-estimation/notebooks/01_foundations.ipynb": "d41431cdfd4b07ee8cd79501cbdf93d6285f48648f49c65f648a6eb087bbc022",
+    "45-depth-estimation/notebooks/02_mechanisms.ipynb": "163926fa4cba3cb3574343ceda1441c0599d8f40d5475118a8b4582168329f5f",
+    "45-depth-estimation/notebooks/03_practical_experiments.ipynb": "da29abc5f75acd205bcfafeedea12efcd7a311b76b5d556949e1fcbed577b5ec",
+    "46-stereo-vision/notebooks/01_foundations.ipynb": "b1938300f1145151b098a4673e9bd85a4ac9be3b68d3b31633a4ef098d32d02b",
+    "46-stereo-vision/notebooks/02_mechanisms.ipynb": "050a7f6b3f9965feb4b34101443d7bb13cf81e4adddea98d00394fc2a486a9af",
+    "46-stereo-vision/notebooks/03_practical_experiments.ipynb": "aae389b556e89930def37ae7ea48217341ebab61fb49f7746f7669b5f4d7caf9",
+    "47-point-clouds/notebooks/01_foundations.ipynb": "913008e0d2e4ed2f5f0df76c8aec37d65933cefd4615bde74d0f836ee9efebe9",
+    "47-point-clouds/notebooks/02_mechanisms.ipynb": "ce38cd2e85c06d3183f4d677d1bf5d4883a411341d4ae1d5ebf227b38108c46f",
+    "47-point-clouds/notebooks/03_practical_experiments.ipynb": "bf292a4177f19643b733cabc3094d9349b7fa8c77cae328378fa1eb0ce2ec190",
+    "48-neural-radiance-fields/notebooks/01_foundations.ipynb": "0109938253348e1d119df5af818193da99d3d26831d003e2fa396ee8e9e00fbe",
+    "48-neural-radiance-fields/notebooks/02_mechanisms.ipynb": "d308c3537629e215377ff22b478c97d5a82ad9e2628d153b4f108dfbe64e3517",
+    "48-neural-radiance-fields/notebooks/03_practical_experiments.ipynb": "681bcb8a46537da58311ffebbfb128ffc96c58ddcd42dda72d6c6139bea484a2",
+    "49-model-optimization/notebooks/01_foundations.ipynb": "2dc2d106ccf613c2fd3efb3cb7c11b426f0663743835b2aa4024e902bf5f5aaa",
+    "49-model-optimization/notebooks/02_mechanisms.ipynb": "220811620a1fa795d39de40f2d3d59171c06fcda35f9aa38d2ea22029ba58fd1",
+    "49-model-optimization/notebooks/03_practical_experiments.ipynb": "c84a94a2dd8a22321724b1bfcc352c0a255496a88fce13a1992cb2eda3150cc4",
+    "50-computer-vision-deployment/notebooks/01_foundations.ipynb": "1f8db79aa216645f808e75c47cb6c0b31aa015d1fd664c19290df8f1c2d04123",
+    "50-computer-vision-deployment/notebooks/02_mechanisms.ipynb": "fc5219fb15dbb74d2a8a1ce0e8cbde64709bccf18a37c0e889aee1511b170b45",
+    "50-computer-vision-deployment/notebooks/03_practical_experiments.ipynb": "87c7f64e6cc177679e1fc1ebfa65b9bd7e721d1423214fc1d39d728adaa2c67c",
+    "51-edge-ai/notebooks/01_foundations.ipynb": "5c1e79d78b393386ad4b28d12730c5e50a48efc288fb9cc90dd0c77088c0c790",
+    "51-edge-ai/notebooks/02_mechanisms.ipynb": "903c7588cd2f60bf86efd75bc640f53f52d8ffb5b649b53948def9f039e80771",
+    "51-edge-ai/notebooks/03_practical_experiments.ipynb": "ced8aaf4c38329e56091d220e06c6fa03a3f73498c6844e95db40b93489ce522",
+    "52-real-time-computer-vision/notebooks/01_foundations.ipynb": "858bc909fbcc558b551eee50c47c8310feed53389d0f982190306060b1d086cb",
+    "52-real-time-computer-vision/notebooks/02_mechanisms.ipynb": "df6d9ca54546ad4bfbbe4072c1a10a5f5804336dfa615413e17eb3cebf38740e",
+    "52-real-time-computer-vision/notebooks/03_practical_experiments.ipynb": "0a1764b0e7708d67cf6d682b4690ea339cc7807c4fff173af8dd67046720319c",
+    "53-production-computer-vision/notebooks/01_foundations.ipynb": "348ee4e9b4e5623843834cf79638547032894fa651355c6caa72c4650a834ff6",
+    "53-production-computer-vision/notebooks/02_mechanisms.ipynb": "f3702d39d0af4df72c96d1a9ce1e48031f3c161960b83b88fc00e7d9e361ddd1",
+    "53-production-computer-vision/notebooks/03_practical_experiments.ipynb": "5b1b7dea54f0cc9dd847107c034a9ec2393d006c76e4aa3dd830d2cd8d66240f"
+  }
+}

@@ -1,0 +1,1250 @@
+{
+  "schema_version": 1,
+  "release": "1.0.0",
+  "chapters": [
+    {
+      "number": 1,
+      "folder": "01-python-for-computer-vision",
+      "title": "Python for Computer Vision",
+      "level": "Beginner",
+      "prerequisites": [],
+      "topics": [
+        "Variables",
+        "functions",
+        "classes",
+        "lists",
+        "dictionaries",
+        "NumPy arrays",
+        "indexing",
+        "broadcasting",
+        "vectorization",
+        "plotting",
+        "file handling"
+      ],
+      "outcome": "Build a reliable image editor and explain each pixel operation",
+      "mini_project": "Pixel Lab",
+      "status": "complete",
+      "notebooks": 4
+    },
+    {
+      "number": 2,
+      "folder": "02-mathematics-for-computer-vision",
+      "title": "Mathematics for Computer Vision",
+      "level": "Beginner",
+      "prerequisites": [
+        1
+      ],
+      "topics": [
+        "Scalars",
+        "vectors",
+        "matrices",
+        "functions",
+        "derivatives",
+        "gradients",
+        "probability",
+        "statistics",
+        "optimization",
+        "eigenvectors",
+        "Fourier basics"
+      ],
+      "outcome": "Translate small equations into array operations before using models",
+      "mini_project": "Visual Math Workbook",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 3,
+      "folder": "03-image-fundamentals",
+      "title": "Image Fundamentals",
+      "level": "Beginner",
+      "prerequisites": [
+        1,
+        2
+      ],
+      "topics": [
+        "Pixels",
+        "resolution",
+        "RGB",
+        "RGBA",
+        "grayscale",
+        "channels",
+        "bit depth",
+        "metadata",
+        "tensors"
+      ],
+      "outcome": "Explain sampling, quantization and image memory",
+      "mini_project": "Image Inspector",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 4,
+      "folder": "04-opencv-fundamentals",
+      "title": "OpenCV Fundamentals",
+      "level": "Beginner",
+      "prerequisites": [
+        1,
+        3
+      ],
+      "topics": [
+        "Image I/O",
+        "BGR",
+        "drawing",
+        "text",
+        "webcam",
+        "keyboard and mouse events",
+        "trackbars"
+      ],
+      "outcome": "Build image and webcam tools with useful failure messages",
+      "mini_project": "Paint and Webcam Viewer",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 5,
+      "folder": "05-image-processing",
+      "title": "Image Processing",
+      "level": "Beginner",
+      "prerequisites": [
+        2,
+        4
+      ],
+      "topics": [
+        "Convolution vs correlation",
+        "mean",
+        "Gaussian",
+        "median",
+        "bilateral",
+        "Gaussian noise",
+        "salt-and-pepper",
+        "speckle"
+      ],
+      "outcome": "Implement a sliding window and compare denoising methods",
+      "mini_project": "Image Restoration Lab",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 6,
+      "folder": "06-image-enhancement",
+      "title": "Image Enhancement",
+      "level": "Beginner",
+      "prerequisites": [
+        5
+      ],
+      "topics": [
+        "Brightness",
+        "contrast",
+        "histogram",
+        "equalization",
+        "CLAHE",
+        "gamma",
+        "sharpening"
+      ],
+      "outcome": "Choose an enhancement method using image evidence",
+      "mini_project": "Image Enhancement Studio",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 7,
+      "folder": "07-geometric-transformations",
+      "title": "Geometric Transformations",
+      "level": "Beginner",
+      "prerequisites": [
+        2,
+        4
+      ],
+      "topics": [
+        "Resize",
+        "crop",
+        "flip",
+        "rotation",
+        "translation",
+        "interpolation",
+        "homogeneous coordinates",
+        "affine",
+        "perspective"
+      ],
+      "outcome": "Map coordinates correctly and control resampling artifacts",
+      "mini_project": "Document Rectifier",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 8,
+      "folder": "08-color-spaces",
+      "title": "Color Spaces",
+      "level": "Beginner",
+      "prerequisites": [
+        3,
+        4
+      ],
+      "topics": [
+        "RGB",
+        "BGR",
+        "HSV",
+        "LAB",
+        "YCrCb",
+        "grayscale",
+        "color thresholding",
+        "skin-color limitations"
+      ],
+      "outcome": "Isolate a colored object while testing illumination changes",
+      "mini_project": "Color Object Tracker",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 9,
+      "folder": "09-feature-detection",
+      "title": "Feature Detection",
+      "level": "Intermediate",
+      "prerequisites": [
+        2,
+        5
+      ],
+      "topics": [
+        "Image derivatives primer",
+        "Harris",
+        "Shi-Tomasi",
+        "FAST",
+        "SIFT",
+        "ORB",
+        "scale and rotation"
+      ],
+      "outcome": "Find repeatable image locations and explain detector tradeoffs",
+      "mini_project": "Corner Explorer",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 10,
+      "folder": "10-feature-description-and-matching",
+      "title": "Feature Description and Matching",
+      "level": "Intermediate",
+      "prerequisites": [
+        7,
+        9
+      ],
+      "topics": [
+        "Descriptors",
+        "BFMatcher",
+        "FLANN",
+        "distance metrics",
+        "ratio test",
+        "RANSAC",
+        "homography"
+      ],
+      "outcome": "Reject false matches before estimating a geometric map",
+      "mini_project": "Image Stitching System",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 11,
+      "folder": "11-morphological-image-processing",
+      "title": "Morphological Image Processing",
+      "level": "Beginner",
+      "prerequisites": [
+        5,
+        8
+      ],
+      "topics": [
+        "Structuring element",
+        "erosion",
+        "dilation",
+        "opening",
+        "closing",
+        "gradient",
+        "top-hat",
+        "black-hat"
+      ],
+      "outcome": "Clean binary masks without destroying useful structure",
+      "mini_project": "Document Cleanup Pipeline",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 12,
+      "folder": "12-contours-and-shapes",
+      "title": "Contours and Shapes",
+      "level": "Intermediate",
+      "prerequisites": [
+        7,
+        11
+      ],
+      "topics": [
+        "Boundary",
+        "area",
+        "perimeter",
+        "bounding box",
+        "rotated box",
+        "convex hull",
+        "approximation"
+      ],
+      "outcome": "Measure image shapes and distinguish pixels from physical units",
+      "mini_project": "Shape Measurement System",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 13,
+      "folder": "13-edge-and-corner-detection",
+      "title": "Edge and Corner Detection",
+      "level": "Intermediate",
+      "prerequisites": [
+        5,
+        9
+      ],
+      "topics": [
+        "Gradients",
+        "Sobel",
+        "Scharr",
+        "Laplacian",
+        "Canny",
+        "non-maximum suppression",
+        "hysteresis"
+      ],
+      "outcome": "Construct a simplified Canny pipeline and evaluate noise effects",
+      "mini_project": "Document Boundary Detector",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 14,
+      "folder": "14-segmentation-classical",
+      "title": "Classical Segmentation",
+      "level": "Intermediate",
+      "prerequisites": [
+        8,
+        11,
+        13
+      ],
+      "topics": [
+        "Thresholding",
+        "Otsu",
+        "adaptive threshold",
+        "connected components",
+        "k-means",
+        "watershed"
+      ],
+      "outcome": "Separate regions with explicit assumptions and evaluation",
+      "mini_project": "Classical Segmentation Lab",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 15,
+      "folder": "15-video-processing",
+      "title": "Video Processing",
+      "level": "Intermediate",
+      "prerequisites": [
+        4,
+        8,
+        14
+      ],
+      "topics": [
+        "Frames",
+        "FPS",
+        "timestamps",
+        "codecs",
+        "streams",
+        "capture",
+        "background subtraction"
+      ],
+      "outcome": "Process finite files and release camera resources reliably",
+      "mini_project": "Motion and Traffic Counter",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 16,
+      "folder": "16-camera-and-calibration",
+      "title": "Camera and Calibration",
+      "level": "Intermediate",
+      "prerequisites": [
+        2,
+        7
+      ],
+      "topics": [
+        "Pinhole model",
+        "intrinsics",
+        "extrinsics",
+        "distortion",
+        "chessboard",
+        "reprojection error",
+        "undistortion"
+      ],
+      "outcome": "Calibrate a camera and validate on held-out board views",
+      "mini_project": "Camera Calibration Toolkit",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 17,
+      "folder": "17-motion-detection",
+      "title": "Motion Detection",
+      "level": "Intermediate",
+      "prerequisites": [
+        14,
+        15
+      ],
+      "topics": [
+        "Frame differencing",
+        "background models",
+        "shadows",
+        "temporal thresholds"
+      ],
+      "outcome": "Detect scene change without confusing it with object identity",
+      "mini_project": "Motion Detector",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 18,
+      "folder": "18-object-tracking",
+      "title": "Object Tracking",
+      "level": "Intermediate",
+      "prerequisites": [
+        12,
+        15,
+        17
+      ],
+      "topics": [
+        "Detection vs tracking",
+        "centroid association",
+        "template tracking",
+        "gating",
+        "occlusion"
+      ],
+      "outcome": "Follow a visible object and explain when its identity is uncertain",
+      "mini_project": "Ball Tracker",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 19,
+      "folder": "19-face-detection",
+      "title": "Face Detection",
+      "level": "Intermediate",
+      "prerequisites": [
+        9,
+        12,
+        15
+      ],
+      "topics": [
+        "Haar cascades",
+        "HOG",
+        "modern detectors",
+        "bounding boxes",
+        "confidence",
+        "failure modes"
+      ],
+      "outcome": "Evaluate face boxes on consented examples without identity claims",
+      "mini_project": "Consented Face Detection Demo",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 20,
+      "folder": "20-face-recognition",
+      "title": "Face Recognition",
+      "level": "Intermediate",
+      "prerequisites": [
+        2,
+        19
+      ],
+      "topics": [
+        "Embedding distance",
+        "verification vs identification",
+        "thresholds",
+        "false matches",
+        "bias",
+        "consent"
+      ],
+      "outcome": "Study small consented verification experiments with error analysis",
+      "mini_project": "Local Opt-in Verification Lab",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 21,
+      "folder": "21-ocr",
+      "title": "OCR",
+      "level": "Intermediate",
+      "prerequisites": [
+        7,
+        11,
+        13
+      ],
+      "topics": [
+        "Text detection",
+        "thresholding",
+        "deskew",
+        "Tesseract",
+        "deep OCR",
+        "character and word error rates"
+      ],
+      "outcome": "Extract text while preserving reading order and error evidence",
+      "mini_project": "Document OCR Pipeline",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 22,
+      "folder": "22-machine-learning-for-vision",
+      "title": "Machine Learning for Vision",
+      "level": "Intermediate",
+      "prerequisites": [
+        2,
+        9,
+        14
+      ],
+      "topics": [
+        "Features",
+        "labels",
+        "splits",
+        "leakage",
+        "classification",
+        "regression",
+        "confusion matrix",
+        "precision",
+        "recall",
+        "F1",
+        "ROC-AUC"
+      ],
+      "outcome": "Evaluate a baseline with a genuinely held-out split",
+      "mini_project": "Digit and Defect Classifier",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 23,
+      "folder": "23-cnn-fundamentals",
+      "title": "CNN Fundamentals",
+      "level": "Intermediate",
+      "prerequisites": [
+        2,
+        5,
+        22
+      ],
+      "topics": [
+        "Perceptron",
+        "activation",
+        "forward pass",
+        "backpropagation",
+        "losses",
+        "gradient descent",
+        "stride",
+        "padding",
+        "pooling",
+        "receptive field"
+      ],
+      "outcome": "Derive a tiny network update and compare fixed and learned filters",
+      "mini_project": "Tiny CNN from First Principles",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 24,
+      "folder": "24-pytorch-for-computer-vision",
+      "title": "PyTorch for Computer Vision",
+      "level": "Intermediate",
+      "prerequisites": [
+        23
+      ],
+      "topics": [
+        "Tensor",
+        "autograd",
+        "Dataset",
+        "DataLoader",
+        "transforms",
+        "loops",
+        "checkpoints",
+        "devices",
+        "mixed precision"
+      ],
+      "outcome": "Write a reproducible training and validation loop",
+      "mini_project": "Reusable Training Engine",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 25,
+      "folder": "25-image-classification",
+      "title": "Image Classification",
+      "level": "Intermediate",
+      "prerequisites": [
+        22,
+        24
+      ],
+      "topics": [
+        "Binary",
+        "multiclass",
+        "multilabel",
+        "simple CNN",
+        "ResNet",
+        "EfficientNet",
+        "MobileNet",
+        "calibration"
+      ],
+      "outcome": "Train a classifier and report per-class failures",
+      "mini_project": "Vehicle or Plant Classifier",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 26,
+      "folder": "26-transfer-learning",
+      "title": "Transfer Learning",
+      "level": "Intermediate",
+      "prerequisites": [
+        25
+      ],
+      "topics": [
+        "Feature extraction",
+        "freezing",
+        "fine-tuning",
+        "learning rates",
+        "dataset size",
+        "domain shift"
+      ],
+      "outcome": "Compare frozen features against controlled fine-tuning",
+      "mini_project": "Industrial Defect Classifier",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 27,
+      "folder": "27-object-detection",
+      "title": "Object Detection",
+      "level": "Advanced",
+      "prerequisites": [
+        12,
+        22,
+        24,
+        26
+      ],
+      "topics": [
+        "Box encodings",
+        "IoU",
+        "NMS",
+        "AP",
+        "mAP",
+        "R-CNN",
+        "Fast R-CNN",
+        "Faster R-CNN",
+        "SSD",
+        "YOLO"
+      ],
+      "outcome": "Implement IoU and NMS before calling a detector API",
+      "mini_project": "Detection Evaluation Toolkit",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 28,
+      "folder": "28-yolo",
+      "title": "YOLO",
+      "level": "Advanced",
+      "prerequisites": [
+        27
+      ],
+      "topics": [
+        "Annotations",
+        "YAML",
+        "split audit",
+        "training",
+        "validation",
+        "confidence",
+        "NMS",
+        "export"
+      ],
+      "outcome": "Run an auditable custom detector workflow",
+      "mini_project": "Custom YOLO Detector",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 29,
+      "folder": "29-object-segmentation",
+      "title": "Object Segmentation",
+      "level": "Advanced",
+      "prerequisites": [
+        14,
+        24,
+        27
+      ],
+      "topics": [
+        "Binary vs semantic vs instance",
+        "masks",
+        "losses",
+        "Dice",
+        "IoU",
+        "FCN",
+        "U-Net",
+        "DeepLab",
+        "Mask R-CNN"
+      ],
+      "outcome": "Match segmentation formulations to an industrial question",
+      "mini_project": "Segmentation Task Explorer",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 30,
+      "folder": "30-instance-segmentation",
+      "title": "Instance Segmentation",
+      "level": "Advanced",
+      "prerequisites": [
+        27,
+        29
+      ],
+      "topics": [
+        "Mask R-CNN",
+        "per-instance masks",
+        "mask AP",
+        "overlapping objects"
+      ],
+      "outcome": "Keep object identity when masks overlap",
+      "mini_project": "Instance Counting System",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 31,
+      "folder": "31-semantic-segmentation",
+      "title": "Semantic Segmentation",
+      "level": "Advanced",
+      "prerequisites": [
+        29
+      ],
+      "topics": [
+        "FCN",
+        "U-Net",
+        "DeepLab",
+        "pixel labels",
+        "class imbalance",
+        "boundaries"
+      ],
+      "outcome": "Train and inspect a dense labeling model",
+      "mini_project": "Industrial Surface Segmentation",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 32,
+      "folder": "32-pose-estimation",
+      "title": "Pose Estimation",
+      "level": "Advanced",
+      "prerequisites": [
+        24,
+        27
+      ],
+      "topics": [
+        "Keypoints",
+        "skeletons",
+        "heatmaps",
+        "confidence",
+        "coordinate conversion",
+        "visibility"
+      ],
+      "outcome": "Visualize joints with uncertainty and safe exercise feedback",
+      "mini_project": "Exercise Counter",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 33,
+      "folder": "33-hand-tracking",
+      "title": "Hand Tracking",
+      "level": "Advanced",
+      "prerequisites": [
+        18,
+        32
+      ],
+      "topics": [
+        "Hand landmarks",
+        "angles",
+        "gestures",
+        "smoothing",
+        "calibration",
+        "interaction"
+      ],
+      "outcome": "Convert landmarks into reversible desktop interactions",
+      "mini_project": "Virtual Pointer Simulator",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 34,
+      "folder": "34-action-recognition",
+      "title": "Action Recognition",
+      "level": "Advanced",
+      "prerequisites": [
+        15,
+        24,
+        32
+      ],
+      "topics": [
+        "Temporal windows",
+        "CNN plus RNN",
+        "3D CNN",
+        "temporal attention",
+        "subject-disjoint splits"
+      ],
+      "outcome": "Classify visible actions without inferring private mental states",
+      "mini_project": "Action Sequence Classifier",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 35,
+      "folder": "35-optical-flow",
+      "title": "Optical Flow",
+      "level": "Advanced",
+      "prerequisites": [
+        2,
+        13,
+        15,
+        18
+      ],
+      "topics": [
+        "Brightness constancy",
+        "image derivatives",
+        "Lucas-Kanade",
+        "pyramids",
+        "dense flow",
+        "aperture problem"
+      ],
+      "outcome": "Estimate apparent motion and test its assumptions",
+      "mini_project": "Flow Visualization Lab",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 36,
+      "folder": "36-multi-object-tracking",
+      "title": "Multi-Object Tracking",
+      "level": "Advanced",
+      "prerequisites": [
+        18,
+        27,
+        35
+      ],
+      "topics": [
+        "Track IDs",
+        "Kalman filter",
+        "Hungarian assignment",
+        "SORT",
+        "DeepSORT",
+        "identity switches"
+      ],
+      "outcome": "Evaluate association separately from detection quality",
+      "mini_project": "Vehicle Tracking System",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 37,
+      "folder": "37-vision-transformers",
+      "title": "Vision Transformers",
+      "level": "Advanced",
+      "prerequisites": [
+        24,
+        25
+      ],
+      "topics": [
+        "Attention primer",
+        "query",
+        "key",
+        "value",
+        "patches",
+        "position",
+        "encoder",
+        "ViT",
+        "pretrained adaptation"
+      ],
+      "outcome": "Implement small attention first, then a simplified ViT",
+      "mini_project": "Tiny Vision Transformer",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 38,
+      "folder": "38-attention-mechanisms",
+      "title": "Attention Mechanisms",
+      "level": "Advanced",
+      "prerequisites": [
+        2,
+        23,
+        24
+      ],
+      "topics": [
+        "Scaled dot product",
+        "masks",
+        "multi-head attention",
+        "cross-attention",
+        "attention cost"
+      ],
+      "outcome": "Investigate the attention mechanism introduced in Chapter 37",
+      "mini_project": "Attention Inspector",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 39,
+      "folder": "39-self-supervised-learning",
+      "title": "Self-Supervised Learning",
+      "level": "Advanced",
+      "prerequisites": [
+        26,
+        38
+      ],
+      "topics": [
+        "Representations",
+        "augmentation",
+        "contrastive loss",
+        "SimCLR",
+        "BYOL",
+        "masked modeling",
+        "collapse"
+      ],
+      "outcome": "Compare representations with fixed evaluation protocols",
+      "mini_project": "Self-Supervised Representation Lab",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 40,
+      "folder": "40-vision-language-models",
+      "title": "Vision-Language Models",
+      "level": "Advanced",
+      "prerequisites": [
+        38,
+        39
+      ],
+      "topics": [
+        "CLIP",
+        "image-text embeddings",
+        "prompting",
+        "captions",
+        "visual questions",
+        "hallucination"
+      ],
+      "outcome": "Measure retrieval and prompt sensitivity with documented model licenses",
+      "mini_project": "Image-Text Search",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 41,
+      "folder": "41-multimodal-computer-vision",
+      "title": "Multimodal Computer Vision",
+      "level": "Advanced",
+      "prerequisites": [
+        16,
+        35,
+        40
+      ],
+      "topics": [
+        "Sensor timestamps",
+        "calibration",
+        "fusion",
+        "missing modalities",
+        "uncertainty",
+        "alignment"
+      ],
+      "outcome": "Combine visual and nonvisual observations without hiding missing data",
+      "mini_project": "RGB and Sensor Fusion Lab",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 42,
+      "folder": "42-generative-computer-vision",
+      "title": "Generative Computer Vision",
+      "level": "Advanced",
+      "prerequisites": [
+        23,
+        24,
+        39
+      ],
+      "topics": [
+        "Autoencoder",
+        "VAE",
+        "GAN",
+        "latent space",
+        "reconstruction",
+        "generation",
+        "image translation"
+      ],
+      "outcome": "Separate reconstruction quality from distribution coverage",
+      "mini_project": "Generative Shapes Lab",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 43,
+      "folder": "43-diffusion-models-for-vision",
+      "title": "Diffusion Models for Vision",
+      "level": "Advanced",
+      "prerequisites": [
+        2,
+        38,
+        42
+      ],
+      "topics": [
+        "Forward noise",
+        "denoising",
+        "schedules",
+        "objectives",
+        "sampling",
+        "guidance",
+        "evaluation"
+      ],
+      "outcome": "Explain noise prediction before using a pretrained generator",
+      "mini_project": "Tiny Diffusion Experiment",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 44,
+      "folder": "44-3d-computer-vision",
+      "title": "3D Computer Vision",
+      "level": "Advanced",
+      "prerequisites": [
+        7,
+        16,
+        35
+      ],
+      "topics": [
+        "Camera matrices",
+        "rotation",
+        "translation",
+        "projection",
+        "epipolar geometry",
+        "triangulation",
+        "pose"
+      ],
+      "outcome": "Recover geometry while tracking coordinate frames and scale ambiguity",
+      "mini_project": "Two-View Geometry Lab",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 45,
+      "folder": "45-depth-estimation",
+      "title": "Depth Estimation",
+      "level": "Advanced",
+      "prerequisites": [
+        31,
+        44
+      ],
+      "topics": [
+        "Metric vs relative depth",
+        "monocular cues",
+        "learned priors",
+        "uncertainty",
+        "depth metrics"
+      ],
+      "outcome": "Evaluate depth without pretending image estimates are measurements",
+      "mini_project": "Depth Inspector",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 46,
+      "folder": "46-stereo-vision",
+      "title": "Stereo Vision",
+      "level": "Advanced",
+      "prerequisites": [
+        16,
+        44,
+        45
+      ],
+      "topics": [
+        "Rectification",
+        "disparity",
+        "baseline",
+        "matching",
+        "occlusion",
+        "depth conversion"
+      ],
+      "outcome": "Convert calibrated disparity into depth with valid masks",
+      "mini_project": "Stereo Depth Toolkit",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 47,
+      "folder": "47-point-clouds",
+      "title": "Point Clouds",
+      "level": "Advanced",
+      "prerequisites": [
+        44,
+        46
+      ],
+      "topics": [
+        "Back-projection",
+        "filtering",
+        "normals",
+        "registration",
+        "ICP",
+        "Open3D"
+      ],
+      "outcome": "Construct and inspect point clouds with units and frame labels",
+      "mini_project": "Point Cloud Workshop",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 48,
+      "folder": "48-neural-radiance-fields",
+      "title": "Neural Radiance Fields",
+      "level": "Research",
+      "prerequisites": [
+        24,
+        42,
+        44,
+        47
+      ],
+      "topics": [
+        "Rays",
+        "radiance",
+        "density",
+        "volume rendering",
+        "positional encoding",
+        "view synthesis",
+        "alternatives"
+      ],
+      "outcome": "Train a tiny synthetic scene and separate camera errors from model errors",
+      "mini_project": "Tiny NeRF Study",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 49,
+      "folder": "49-model-optimization",
+      "title": "Model Optimization",
+      "level": "Advanced",
+      "prerequisites": [
+        24,
+        27,
+        31,
+        37
+      ],
+      "topics": [
+        "Profiling",
+        "quantization",
+        "pruning",
+        "distillation",
+        "ONNX",
+        "TensorRT concepts",
+        "correctness tolerance"
+      ],
+      "outcome": "Benchmark speed, memory and accuracy on the same workload",
+      "mini_project": "Model Optimization Lab",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 50,
+      "folder": "50-computer-vision-deployment",
+      "title": "Computer Vision Deployment",
+      "level": "Advanced",
+      "prerequisites": [
+        49
+      ],
+      "topics": [
+        "FastAPI",
+        "Streamlit",
+        "Gradio",
+        "Docker",
+        "schemas",
+        "validation",
+        "batch",
+        "CPU and GPU inference"
+      ],
+      "outcome": "Serve a versioned model and validate requests and predictions",
+      "mini_project": "Production Vision API",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 51,
+      "folder": "51-edge-ai",
+      "title": "Edge AI",
+      "level": "Advanced",
+      "prerequisites": [
+        49,
+        50
+      ],
+      "topics": [
+        "Device budgets",
+        "thermal constraints",
+        "memory",
+        "offline operation",
+        "camera adapters"
+      ],
+      "outcome": "Measure performance under actual device constraints",
+      "mini_project": "Edge Inference Benchmark",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 52,
+      "folder": "52-real-time-computer-vision",
+      "title": "Real-Time Computer Vision",
+      "level": "Advanced",
+      "prerequisites": [
+        15,
+        36,
+        49,
+        50
+      ],
+      "topics": [
+        "Latency",
+        "throughput",
+        "FPS",
+        "backpressure",
+        "frame dropping",
+        "timestamps",
+        "threading",
+        "multiprocessing"
+      ],
+      "outcome": "Keep displays responsive while processing bounded work queues",
+      "mini_project": "Real-Time Analytics Dashboard",
+      "status": "complete",
+      "notebooks": 3
+    },
+    {
+      "number": 53,
+      "folder": "53-production-computer-vision",
+      "title": "Production Computer Vision",
+      "level": "Advanced",
+      "prerequisites": [
+        41,
+        50,
+        51,
+        52
+      ],
+      "topics": [
+        "Data contracts",
+        "model registry",
+        "drift",
+        "observability",
+        "databases",
+        "rollback",
+        "testing",
+        "review"
+      ],
+      "outcome": "Integrate, monitor and evaluate an end-to-end vision service",
+      "mini_project": "End-to-End Real-Time Vision Platform",
+      "status": "complete",
+      "notebooks": 3
+    }
+  ],
+  "completion_definition": "Theory, reference code, focused executed CPU notebooks, exercises, challenge, mini-project baseline, assets and references. External research reproductions are not implied."
+}

@@ -1,0 +1,33 @@
+{
+  "validated_at_utc": "2026-10-04T17:34:48.678303+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "processor": "x86_64",
+  "logical_cpus": 9,
+  "device": "CPU",
+  "packages": {
+    "cvzero": "1.0.0",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "Pillow": "12.3.0",
+    "opencv-python-headless": "4.14.0.94",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "torch": "2.14.1+cpu",
+    "fastapi": "0.142.2",
+    "starlette": "1.7.0",
+    "httpx": "0.28.1",
+    "uvicorn": "0.54.0",
+    "pydantic": "2.13.5",
+    "onnx": "1.23.1",
+    "onnxruntime": "1.30.0",
+    "nbformat": "5.11.1",
+    "ipykernel": "7.4.0",
+    "pytest": "9.1.1",
+    "ruff": "0.16.10"
+  },
+  "tests_passed": 83,
+  "notebooks_passed": 160,
+  "optional_pretrained_downloads_executed": false
+}

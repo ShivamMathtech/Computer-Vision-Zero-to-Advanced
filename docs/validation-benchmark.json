@@ -1,0 +1,72 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "processor": "x86_64",
+    "opencv_runtime": "4.14.0",
+    "packages": {
+      "numpy": "2.3.5",
+      "matplotlib": "3.10.8",
+      "Pillow": "12.3.0",
+      "opencv-python-headless": "4.14.0.94",
+      "cvzero": "0.1.0"
+    }
+  },
+  "seed": 42,
+  "shape": [
+    96,
+    128,
+    3
+  ],
+  "delta": 30,
+  "repeats": 5,
+  "warmup_runs": 1,
+  "opencv_threads": 1,
+  "metric": "wall time in milliseconds; allocation included, I/O excluded",
+  "peak_memory_measured": false,
+  "results": [
+    {
+      "implementation": "python_loop",
+      "median_ms": 16.880873999980395,
+      "samples_ms": [
+        16.880873999980395,
+        16.252022000116995,
+        16.298290999657183,
+        17.1376399998735,
+        18.53621000009298
+      ],
+      "max_absolute_pixel_error": 0,
+      "input_array_bytes": 36864,
+      "output_array_bytes": 36864
+    },
+    {
+      "implementation": "numpy",
+      "median_ms": 0.25865999987217947,
+      "samples_ms": [
+        0.28218299985383055,
+        0.3318160001981596,
+        0.24147099975380115,
+        0.2289180001753266,
+        0.25865999987217947
+      ],
+      "max_absolute_pixel_error": 0,
+      "input_array_bytes": 36864,
+      "output_array_bytes": 36864
+    },
+    {
+      "implementation": "opencv",
+      "median_ms": 0.010954999652312836,
+      "samples_ms": [
+        0.012621000223589363,
+        0.011316999916743953,
+        0.010895999821514124,
+        0.010954999652312836,
+        0.010735000159911579
+      ],
+      "max_absolute_pixel_error": 0,
+      "input_array_bytes": 36864,
+      "output_array_bytes": 36864
+    }
+  ]
+}
