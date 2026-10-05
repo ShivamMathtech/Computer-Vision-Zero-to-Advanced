@@ -1,0 +1,21 @@
+{
+  "chapter": 33,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "normalized_pinch_distance": 0.8320502943378437,
+    "pinch_detected": false,
+    "pointer_normalized_xy": [
+      0.3645833333333333,
+      0.11363636363636363
+    ]
+  },
+  "scope": "A safe virtual-pointer calculation; no operating-system mouse clicks are performed. Real landmarks require the optional hand detector.",
+  "implementation": "src/cvzero/course/deep.py::hands",
+  "torch": "2.14.1+cpu"
+}
