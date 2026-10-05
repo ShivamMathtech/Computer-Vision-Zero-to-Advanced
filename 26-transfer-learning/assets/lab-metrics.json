@@ -1,0 +1,18 @@
+{
+  "chapter": 26,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "feature_max_parameter_change": 0.0,
+    "held_out_target_accuracy": 0.36666667461395264,
+    "backbone_frozen": true
+  },
+  "scope": "Pretraining is performed locally on generated shapes; this is not ImageNet-pretrained transfer.",
+  "implementation": "src/cvzero/course/deep.py::transfer",
+  "torch": "2.14.1+cpu"
+}
