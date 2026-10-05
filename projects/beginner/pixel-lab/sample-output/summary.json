@@ -1,0 +1,79 @@
+{
+  "source": "synthetic scene",
+  "seed": 42,
+  "configuration": {
+    "brightness": 25.0,
+    "gains": [
+      1.1,
+      1.0,
+      0.8
+    ],
+    "crop": null
+  },
+  "operation_order": [
+    "crop",
+    "brightness (clip and round)",
+    "channel gains (clip and round)"
+  ],
+  "original": {
+    "height": 160,
+    "width": 240,
+    "channels": 3,
+    "color_order": "RGB",
+    "dtype": "uint8",
+    "array_bytes": 115200,
+    "min_rgb": [
+      40,
+      35,
+      35
+    ],
+    "max_rgb": [
+      230,
+      215,
+      235
+    ],
+    "mean_rgb": [
+      115.398515625,
+      112.048203125,
+      63.47890625
+    ]
+  },
+  "edited": {
+    "height": 160,
+    "width": 240,
+    "channels": 3,
+    "color_order": "RGB",
+    "dtype": "uint8",
+    "array_bytes": 115200,
+    "min_rgb": [
+      72,
+      60,
+      48
+    ],
+    "max_rgb": [
+      255,
+      240,
+      204
+    ],
+    "mean_rgb": [
+      152.90380208333335,
+      137.048203125,
+      70.56182291666667
+    ]
+  },
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "processor": "x86_64",
+    "opencv_runtime": "4.14.0",
+    "packages": {
+      "numpy": "2.3.5",
+      "matplotlib": "3.10.8",
+      "Pillow": "12.3.0",
+      "opencv-python-headless": "4.14.0.94",
+      "cvzero": "0.1.0"
+    }
+  },
+  "result_type": "measured image statistics; no trained model"
+}
