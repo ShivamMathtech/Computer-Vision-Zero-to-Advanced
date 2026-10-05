@@ -1,0 +1,17 @@
+{
+  "chapter": 36,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "frames": 32,
+    "nearest_truth_id_switches": 0,
+    "final_active_tracks": 2
+  },
+  "scope": "Two well separated generated trajectories. This is a center-only Kalman/Hungarian teaching tracker, not a full SORT or DeepSORT implementation. Nearest-truth association is a toy diagnostic, not HOTA or IDF1.",
+  "implementation": "src/cvzero/course/spatial.py::multi_tracking"
+}
