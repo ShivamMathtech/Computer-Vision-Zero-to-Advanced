@@ -1,0 +1,24 @@
+{
+  "chapter": 25,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "held_out_accuracy": 0.5,
+    "epochs": 6,
+    "train_samples": 96,
+    "test_samples": 30,
+    "classes": [
+      "circle",
+      "square",
+      "triangle"
+    ]
+  },
+  "scope": "Small synthetic classifier. ResNet/EfficientNet/MobileNet external workflows are provided separately.",
+  "implementation": "src/cvzero/course/deep.py::classification",
+  "torch": "2.14.1+cpu"
+}
