@@ -1,0 +1,17 @@
+{
+  "chapter": 30,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "binary_connected_objects": 1,
+    "watershed_foreground_instances": 1
+  },
+  "scope": "Watershed is a classical instance baseline. Mask R-CNN inference is an optional pretrained workflow, not simulated by watershed.",
+  "implementation": "src/cvzero/course/deep.py::instances",
+  "torch": "2.14.1+cpu"
+}
