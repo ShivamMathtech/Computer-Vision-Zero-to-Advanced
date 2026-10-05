@@ -1,0 +1,16 @@
+{
+  "chapter": 14,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "reference_threshold": 125,
+    "opencv_threshold": 125.0
+  },
+  "scope": "Generated teaching data; local result only.",
+  "implementation": "src/cvzero/course/classical.py::segmentation"
+}
