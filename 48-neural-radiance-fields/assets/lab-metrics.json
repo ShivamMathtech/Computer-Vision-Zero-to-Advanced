@@ -1,0 +1,18 @@
+{
+  "chapter": 48,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "rays": 144,
+    "samples_per_ray": 20,
+    "final_training_mse": 0.00230359542183578
+  },
+  "scope": "Orthographic, position-only single-view fit is underconstrained. It teaches volume rendering and optimization; it is not a multi-view NeRF reconstruction benchmark.",
+  "implementation": "src/cvzero/course/deep.py::nerf",
+  "torch": "2.14.1+cpu"
+}
