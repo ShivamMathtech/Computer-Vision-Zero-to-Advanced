@@ -1,0 +1,16 @@
+{
+  "chapter": 23,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "training_accuracy": 1.0
+  },
+  "scope": "Training accuracy on a constructed two-cluster problem is not held-out vision performance.",
+  "implementation": "src/cvzero/course/deep.py::cnn",
+  "torch": "2.14.1+cpu"
+}
