@@ -1,0 +1,16 @@
+{
+  "chapter": 6,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "input_std": 11.601336897843867,
+    "output_std": 74.12728805867202
+  },
+  "scope": "Contrast spread is descriptive, not a perceptual quality score.",
+  "implementation": "src/cvzero/course/classical.py::enhancement"
+}
