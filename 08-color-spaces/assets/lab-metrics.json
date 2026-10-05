@@ -1,0 +1,15 @@
+{
+  "chapter": 8,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "selected_fraction": 0.2686631944444444
+  },
+  "scope": "HSV thresholds depend on lighting. Color alone is not a reliable skin or identity classifier.",
+  "implementation": "src/cvzero/course/classical.py::colors"
+}
