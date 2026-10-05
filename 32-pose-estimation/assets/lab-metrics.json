@@ -1,0 +1,18 @@
+{
+  "chapter": 32,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "keypoint_error_px": 0.04422947389927644,
+    "cycles_counted": 3,
+    "right_angle_degrees": 90.0
+  },
+  "scope": "Keypoints and motion are generated. This does not estimate joints from a human photograph; use the optional MediaPipe adapter with explicit model assets.",
+  "implementation": "src/cvzero/course/deep.py::pose",
+  "torch": "2.14.1+cpu"
+}
