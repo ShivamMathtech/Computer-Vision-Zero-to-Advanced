@@ -1,0 +1,18 @@
+{
+  "chapter": 22,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "held_out_accuracy": 0.9777777777777777,
+    "train_samples": 1347,
+    "test_samples": 450,
+    "dataset": "scikit-learn packaged digits; 8x8 images"
+  },
+  "scope": "Scaler fits only the training set. This seeded held-out result is specific to this dataset and split, not a general CV accuracy claim.",
+  "implementation": "src/cvzero/course/classical.py::machine_learning"
+}
