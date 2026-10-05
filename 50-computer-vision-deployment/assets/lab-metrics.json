@@ -1,0 +1,19 @@
+{
+  "chapter": 50,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "http_status": 200,
+    "duplicate_frame_status": 409,
+    "persisted_frames": 1,
+    "detections": 2,
+    "engine_latency_ms": 1.5206299999590556
+  },
+  "scope": "Actual FastAPI request handling and SQLite writes through an in-process HTTP client. No public server is launched. Network latency, authentication and concurrent load are not measured here.",
+  "implementation": "src/cvzero/course/engineering.py::deployment"
+}
