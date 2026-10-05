@@ -1,0 +1,38 @@
+{
+  "chapter": 51,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "resolutions": [
+      192,
+      144,
+      96,
+      48
+    ],
+    "rgb_buffer_bytes": [
+      110592,
+      62208,
+      27648,
+      6912
+    ],
+    "median_processing_ms": [
+      0.0376814998617192,
+      0.2625639999678242,
+      0.026745000013761455,
+      0.05287400017550681
+    ],
+    "edge_iou": [
+      1.0,
+      0.5905143620574482,
+      0.3294609665427509,
+      0.12262658227848101
+    ]
+  },
+  "scope": "Local CPU measurements are not edge-device benchmarks. Edge IoU compares to the full-resolution algorithm, not annotated ground truth. Quantization, power and device runtimes require separate target-device measurements.",
+  "implementation": "src/cvzero/course/engineering.py::edge"
+}
