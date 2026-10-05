@@ -1,0 +1,23 @@
+{
+  "chapter": 28,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "predicted_normalized_cxcywh": [
+      0.6779366731643677,
+      0.5954762101173401,
+      0.47425997257232666,
+      0.4745725989341736
+    ],
+    "training_samples": 64,
+    "updates": 30
+  },
+  "scope": "A four-output didactic single-object regressor, NOT an implementation of Ultralytics YOLO. The included YOLO CLI performs actual dataset validation, train, val, predict and export with an optional installation.",
+  "implementation": "src/cvzero/course/deep.py::yolo_grid",
+  "torch": "2.14.1+cpu"
+}
