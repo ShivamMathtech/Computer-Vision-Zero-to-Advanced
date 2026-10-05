@@ -1,0 +1,18 @@
+{
+  "chapter": 38,
+  "lesson": 0,
+  "seed": 42,
+  "amount": 1.0,
+  "device": "cpu",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "opencv": "4.14.0.94",
+  "metrics": {
+    "row_sum_max_error": 2.220446049250313e-16,
+    "pytorch_max_error": 3.3306690738754696e-16,
+    "causal_mask": false
+  },
+  "scope": "A causal mask is demonstrated for sequence reasoning; a standard ViT uses bidirectional patch attention.",
+  "implementation": "src/cvzero/course/deep.py::attention_lab",
+  "torch": "2.14.1+cpu"
+}
